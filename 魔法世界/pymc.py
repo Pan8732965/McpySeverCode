@@ -10,15 +10,19 @@ import time
 mc = Minecraft.create()
 time.sleep(5)
 
-position = mc.player.getTilePos()
+'''position = mc.player.getTilePos()
 x=position.x
 y=position.y
 z=position.z
+'''
+
+x,y,z= mc.player.getTilePos()
+
 
 mc.player.setTilePos(x,y,z)
 time.sleep(0.5)
-y=y+1
+x=x-100
 mc.player.setTilePos(x,y,z)
-time.slee(0.5)
-y=y+1
+time.sleep(0.5)
+x=x-100
 mc.player.setTilePos(x,y,z)
