@@ -12,6 +12,7 @@
 
 config-version: 11
 <<<<<<< HEAD
+<<<<<<< HEAD
 settings:
   debug: false
   save-user-cache-on-stop-only: false
@@ -36,6 +37,8 @@ settings:
       max: 2048.0
     attackDamage:
       max: 2048.0
+=======
+>>>>>>> 048fb8f93ef825944c9631195157f2b8b967ac02
 =======
 >>>>>>> 048fb8f93ef825944c9631195157f2b8b967ac02
 messages:
@@ -50,7 +53,10 @@ commands:
   silent-commandblock-console: false
   log: true
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 048fb8f93ef825944c9631195157f2b8b967ac02
   spam-exclusions:
   - /skill
 >>>>>>> 048fb8f93ef825944c9631195157f2b8b967ac02
@@ -60,9 +66,12 @@ commands:
   - testforblock
   - tellraw
 <<<<<<< HEAD
+<<<<<<< HEAD
   spam-exclusions:
   - /skill
 =======
+=======
+>>>>>>> 048fb8f93ef825944c9631195157f2b8b967ac02
 settings:
   save-user-cache-on-stop-only: false
   moved-wrongly-threshold: 0.0625
@@ -87,6 +96,9 @@ settings:
   item-dirty-ticks: 20
   netty-threads: 4
   debug: false
+<<<<<<< HEAD
+>>>>>>> 048fb8f93ef825944c9631195157f2b8b967ac02
+=======
 >>>>>>> 048fb8f93ef825944c9631195157f2b8b967ac02
 advancements:
   disable-saving: false
@@ -98,6 +110,7 @@ stats:
 world-settings:
   default:
     verbose: true
+<<<<<<< HEAD
 <<<<<<< HEAD
     seed-village: 10387312
     seed-feature: 14357617
@@ -117,6 +130,8 @@ world-settings:
     zombie-aggressive-towards-villager: true
     mob-spawn-range: 4
 =======
+=======
+>>>>>>> 048fb8f93ef825944c9631195157f2b8b967ac02
     random-light-updates: false
     save-structure-info: true
     ticks-per:
@@ -141,6 +156,9 @@ world-settings:
     max-tick-time:
       tile: 50
       entity: 50
+<<<<<<< HEAD
+>>>>>>> 048fb8f93ef825944c9631195157f2b8b967ac02
+=======
 >>>>>>> 048fb8f93ef825944c9631195157f2b8b967ac02
     growth:
       cactus-modifier: 100
@@ -154,6 +172,7 @@ world-settings:
       vine-modifier: 100
       cocoa-modifier: 100
 <<<<<<< HEAD
+<<<<<<< HEAD
     save-structure-info: true
     max-tick-time:
       tile: 50
@@ -180,12 +199,17 @@ world-settings:
       other: 64
 =======
 >>>>>>> 048fb8f93ef825944c9631195157f2b8b967ac02
+=======
+>>>>>>> 048fb8f93ef825944c9631195157f2b8b967ac02
     entity-activation-range:
       animals: 32
       monsters: 32
       misc: 16
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 048fb8f93ef825944c9631195157f2b8b967ac02
     mob-spawn-range: 4
     arrow-despawn-rate: 1200
     enable-zombie-pigmen-portal-spawns: true
@@ -203,4 +227,7 @@ world-settings:
     seed-monument: 10387313
     seed-slime: 987234911
     dragon-death-sound-radius: 0
+<<<<<<< HEAD
+>>>>>>> 048fb8f93ef825944c9631195157f2b8b967ac02
+=======
 >>>>>>> 048fb8f93ef825944c9631195157f2b8b967ac02

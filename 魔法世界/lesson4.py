@@ -12,6 +12,7 @@ mc = Minecraft.create()
 
 #get block &輕功水上漂
 <<<<<<< HEAD
+<<<<<<< HEAD
 while True:
     x,y,z=mc.player.getTilePos()
     a=mc.getBlock(x,y-1,z+1)
@@ -24,6 +25,8 @@ while True:
         
 
 =======
+=======
+>>>>>>> 048fb8f93ef825944c9631195157f2b8b967ac02
 
 x,y,z=mc.player.getTilePos()
 a=mc.getBlock(x,y-1,z+1)
@@ -41,6 +44,9 @@ if a==9 or b==9 or c==9 or d==9:
     mc.setBlock(x+1,y-1,z+1,x-1,y-1,z-1,103)
     time.sleep(0.2)"""
 
+<<<<<<< HEAD
+>>>>>>> 048fb8f93ef825944c9631195157f2b8b967ac02
+=======
 >>>>>>> 048fb8f93ef825944c9631195157f2b8b967ac02
 # 小花
 '''while True:
@@ -49,7 +55,11 @@ if a==9 or b==9 or c==9 or d==9:
     time.sleep(0.2)'''
 #水壩
 <<<<<<< HEAD
+<<<<<<< HEAD
 '''
+=======
+"""
+>>>>>>> 048fb8f93ef825944c9631195157f2b8b967ac02
 =======
 """
 >>>>>>> 048fb8f93ef825944c9631195157f2b8b967ac02
@@ -59,7 +69,11 @@ while i<20:
     z=z-5
     i=i+1
 <<<<<<< HEAD
+<<<<<<< HEAD
     '''
+=======
+    """
+>>>>>>> 048fb8f93ef825944c9631195157f2b8b967ac02
 =======
     """
 >>>>>>> 048fb8f93ef825944c9631195157f2b8b967ac02
