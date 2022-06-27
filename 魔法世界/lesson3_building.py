@@ -14,14 +14,16 @@ time.sleep(3)
 x,y,z = mc.player.getTilePos()
 mc.postToChat("You are located on X:"+str(x)+",Y:"+str(y)+",Z:"+str(z))
 width=10
-height=10
-length=10
+height=5
+length=6
 blocktype=4
 air=0
 
-mc.setBlocks(x,y,z,x+width,y+height,z+length,blocktype) # outside material
-mc.setblocks(x+1,y+1,z+1,x+width-1,y+height-1,z+length-1,0)# inside air
-# 不能挖空
+mc.setBlocks(x,y,z,x+width,y+height,z+length,blocktype)
+time.sleep(3)
+#mc.setBlocks(x,y,z,x+width,y+height,z+length,0) # outside material
+mc.setBlocks(x + 1,y + 1,z + 1,x + width - 1 ,y + height - 1 ,z + length - 1, 0)# inside air
+#why
 '''mc.setBlock(x,y,z,206)
 mc.setBlock(x,y+1,z,206)
 mc.setBlock(x,y+2,z,206)
