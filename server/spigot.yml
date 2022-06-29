@@ -15,10 +15,13 @@ settings:
   debug: false
   save-user-cache-on-stop-only: false
 <<<<<<< HEAD
+<<<<<<< HEAD
   filter-creative-items: true
   moved-too-quickly-multiplier: 10.0
   moved-wrongly-threshold: 0.0625
 =======
+=======
+>>>>>>> a4297d7633aa6673d5aa385c6124850e608014dd
   moved-wrongly-threshold: 0.0625
   moved-too-quickly-multiplier: 10.0
   filter-creative-items: true
@@ -33,6 +36,9 @@ settings:
   restart-on-crash: true
   restart-script: ./start.sh
   netty-threads: 4
+<<<<<<< HEAD
+>>>>>>> a4297d7633aa6673d5aa385c6124850e608014dd
+=======
 >>>>>>> a4297d7633aa6673d5aa385c6124850e608014dd
   attribute:
     maxHealth:
@@ -41,6 +47,7 @@ settings:
       max: 2048.0
     attackDamage:
       max: 2048.0
+<<<<<<< HEAD
 <<<<<<< HEAD
   user-cache-size: 1000
   timeout-time: 60
@@ -60,6 +67,10 @@ commands:
 commands:
   tab-complete: 0
 >>>>>>> a4297d7633aa6673d5aa385c6124850e608014dd
+=======
+commands:
+  tab-complete: 0
+>>>>>>> a4297d7633aa6673d5aa385c6124850e608014dd
   silent-commandblock-console: false
   spam-exclusions:
   - /skill
@@ -69,6 +80,10 @@ commands:
   - testforblock
   - tellraw
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+  log: true
+>>>>>>> a4297d7633aa6673d5aa385c6124850e608014dd
 =======
   log: true
 >>>>>>> a4297d7633aa6673d5aa385c6124850e608014dd
@@ -90,6 +105,7 @@ world-settings:
   default:
     verbose: true
 <<<<<<< HEAD
+<<<<<<< HEAD
     arrow-despawn-rate: 1200
     item-despawn-rate: 6000
 =======
@@ -101,6 +117,12 @@ world-settings:
 <<<<<<< HEAD
     view-distance: 10
 =======
+=======
+    enable-zombie-pigmen-portal-spawns: true
+    wither-spawn-sound-radius: 0
+    merge-radius:
+      exp: 3.0
+>>>>>>> a4297d7633aa6673d5aa385c6124850e608014dd
       item: 2.5
     item-despawn-rate: 6000
     arrow-despawn-rate: 1200
@@ -132,6 +154,9 @@ world-settings:
       animals: 32
       monsters: 32
       misc: 16
+<<<<<<< HEAD
+>>>>>>> a4297d7633aa6673d5aa385c6124850e608014dd
+=======
 >>>>>>> a4297d7633aa6673d5aa385c6124850e608014dd
     growth:
       cactus-modifier: 100
@@ -144,6 +169,7 @@ world-settings:
       netherwart-modifier: 100
       vine-modifier: 100
       cocoa-modifier: 100
+<<<<<<< HEAD
 <<<<<<< HEAD
     entity-tracking-range:
       players: 48
@@ -187,11 +213,22 @@ world-settings:
       entity: 50
     nerf-spawner-mobs: false
 >>>>>>> a4297d7633aa6673d5aa385c6124850e608014dd
+=======
+    random-light-updates: false
+    max-tick-time:
+      tile: 50
+      entity: 50
+    nerf-spawner-mobs: false
+>>>>>>> a4297d7633aa6673d5aa385c6124850e608014dd
     seed-village: 10387312
     seed-feature: 14357617
     seed-monument: 10387313
     seed-slime: 987234911
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    dragon-death-sound-radius: 0
+>>>>>>> a4297d7633aa6673d5aa385c6124850e608014dd
 =======
     dragon-death-sound-radius: 0
 >>>>>>> a4297d7633aa6673d5aa385c6124850e608014dd

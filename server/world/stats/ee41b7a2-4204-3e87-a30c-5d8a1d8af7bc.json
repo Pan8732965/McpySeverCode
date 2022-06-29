@@ -1,5 +1,9 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 {"stat.useItem.minecraft.bow":88,"stat.walkOneCm":40700,"stat.pickup.minecraft.bone":2,"stat.leaveGame":2,"stat.pickup.minecraft.arrow":2,"stat.killEntity.Slime":5,"stat.useItem.minecraft.diamond_sword":13,"stat.pickup.minecraft.log":2,"stat.jump":135,"stat.swimOneCm":647,"stat.pickup.minecraft.beef":11,"stat.pickup.minecraft.stone":6,"stat.pickup.minecraft.chicken":4,"stat.pickup.minecraft.sapling":1,"stat.pickup.minecraft.dirt":117,"stat.useItem.minecraft.dirt":4,"stat.sprintOneCm":11271,"stat.pickup.minecraft.sand":7,"stat.killEntity.Chicken":4,"stat.pickup.minecraft.leather":3,"stat.killEntity.Spider":1,"stat.pickup.minecraft.feather":3,"stat.mobKills":12,"stat.pickup.minecraft.cobblestone":25,"stat.useItem.minecraft.anvil":5,"stat.flyOneCm":342817,"stat.pickup.minecraft.wheat_seeds":9,"stat.playOneMinute":140992,"stat.pickup.minecraft.red_flower":1,"stat.sneakTime":9,"stat.pickup.minecraft.slime_ball":4,"stat.damageDealt":799,"stat.timeSinceDeath":140992,"stat.killEntity.Cow":2,"stat.diveOneCm":2251}
+=======
+{"stat.flyOneCm":17806,"stat.walkOneCm":224,"stat.jump":3,"stat.playOneMinute":17114,"stat.sneakTime":1,"stat.timeSinceDeath":17114,"stat.sprintOneCm":183}
+>>>>>>> a4297d7633aa6673d5aa385c6124850e608014dd
 =======
 {"stat.flyOneCm":17806,"stat.walkOneCm":224,"stat.jump":3,"stat.playOneMinute":17114,"stat.sneakTime":1,"stat.timeSinceDeath":17114,"stat.sprintOneCm":183}
 >>>>>>> a4297d7633aa6673d5aa385c6124850e608014dd
