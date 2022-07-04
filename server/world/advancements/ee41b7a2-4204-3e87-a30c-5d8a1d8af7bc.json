@@ -5,15 +5,15 @@
     },
     "done": true
   },
-  "minecraft:recipes/redstone/dispenser": {
-    "criteria": {
-      "has_bow": "2022-06-30 14:33:54 +0800"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/purple_wool": {
     "criteria": {
       "has_white_wool": "2022-06-30 14:26:12 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/dispenser": {
+    "criteria": {
+      "has_bow": "2022-06-30 14:33:54 +0800"
     },
     "done": true
   },
@@ -35,6 +35,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/redstone/repeater": {
+    "criteria": {
+      "has_redstone_torch": "2022-07-04 15:56:17 +0800"
+    },
+    "done": true
+  },
   "minecraft:adventure/kill_a_mob": {
     "criteria": {
       "slime": "2022-06-30 14:23:35 +0800"
@@ -43,7 +49,8 @@
   },
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
-      "slime": "2022-06-30 14:23:35 +0800"
+      "slime": "2022-06-30 14:23:35 +0800",
+      "silverfish": "2022-07-04 15:53:46 +0800"
     },
     "done": false
   },
@@ -133,6 +140,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/transportation/birch_boat": {
+    "criteria": {
+      "entered_water": "2022-06-30 14:26:37 +0800"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/chest": {
     "criteria": {
       "has_lots_of_items": "2022-06-30 14:34:12 +0800"
@@ -145,12 +158,6 @@
     },
     "done": true
   },
-  "minecraft:recipes/transportation/birch_boat": {
-    "criteria": {
-      "entered_water": "2022-06-30 14:26:37 +0800"
-    },
-    "done": true
-  },
   "minecraft:recipes/decorations/painting": {
     "criteria": {
       "has_wool": "2022-06-30 14:26:12 +0800"
@@ -160,18 +167,6 @@
   "minecraft:recipes/building_blocks/light_gray_wool": {
     "criteria": {
       "has_white_wool": "2022-06-30 14:26:12 +0800"
-    },
-    "done": true
-  },
-  "minecraft:recipes/transportation/acacia_boat": {
-    "criteria": {
-      "entered_water": "2022-06-30 14:26:37 +0800"
-    },
-    "done": true
-  },
-  "minecraft:recipes/redstone/stone_button": {
-    "criteria": {
-      "has_stone": "2022-06-30 14:26:18 +0800"
     },
     "done": true
   },
@@ -190,6 +185,18 @@
   "minecraft:recipes/decorations/white_banner": {
     "criteria": {
       "has_white_wool": "2022-06-30 14:26:12 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/stone_button": {
+    "criteria": {
+      "has_stone": "2022-06-30 14:26:18 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/acacia_boat": {
+    "criteria": {
+      "entered_water": "2022-06-30 14:26:37 +0800"
     },
     "done": true
   },
@@ -247,12 +254,6 @@
     },
     "done": true
   },
-  "minecraft:recipes/decorations/slime": {
-    "criteria": {
-      "has_at_least_9_slime_ball": "2022-06-30 15:30:38 +0800"
-    },
-    "done": true
-  },
   "minecraft:recipes/transportation/spruce_boat": {
     "criteria": {
       "entered_water": "2022-06-30 14:26:37 +0800"
@@ -262,6 +263,12 @@
   "minecraft:adventure/shoot_arrow": {
     "criteria": {
       "shot_arrow": "2022-06-30 14:33:59 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/slime": {
+    "criteria": {
+      "has_at_least_9_slime_ball": "2022-06-30 15:30:38 +0800"
     },
     "done": true
   }
