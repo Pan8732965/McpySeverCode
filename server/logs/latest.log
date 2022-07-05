@@ -1,121 +1,1738 @@
-[21:33:23] [Server thread/INFO]: Starting minecraft server version 1.12.2
-[21:33:23] [Server thread/INFO]: Loading properties
-[21:33:23] [Server thread/INFO]: Default game type: CREATIVE
-[21:33:23] [Server thread/INFO]: This server is running CraftBukkit version git-Spigot-5695bca-53fccdf (MC: 1.12.2) (Implementing API version 1.12.2-R0.1-SNAPSHOT)
-[21:33:24] [Server thread/INFO]: Debug logging is disabled
-[21:33:24] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[21:33:24] [Server thread/INFO]: Using 4 threads for Netty based IO
-[21:33:24] [Server thread/INFO]: Generating keypair
-[21:33:24] [Server thread/INFO]: Starting Minecraft server on *:25565
-[21:33:24] [Server thread/INFO]: Using default channel type
-[21:33:24] [Server thread/INFO]: Set PluginClassLoader as parallel capable
-[21:33:24] [Server thread/INFO]: [RaspberryJuice] Loading RaspberryJuice v1.11
-[21:33:24] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[21:33:24] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[21:33:24] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[21:33:24] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[21:33:24] [Server thread/INFO]: **** Beginning UUID conversion, this may take A LONG time ****
-[21:33:24] [Server thread/INFO]: Preparing level "world"
-[21:33:24] [Server thread/INFO]: -------- World Settings For [world] --------
-[21:33:24] [Server thread/INFO]: Item Despawn Rate: 6000
-[21:33:24] [Server thread/INFO]: Item Merge Radius: 2.5
-[21:33:24] [Server thread/INFO]: Arrow Despawn Rate: 1200
-[21:33:24] [Server thread/INFO]: View Distance: 10
-[21:33:24] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[21:33:24] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[21:33:24] [Server thread/INFO]: Experience Merge Radius: 3.0
-[21:33:24] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[21:33:24] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
-[21:33:24] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[21:33:24] [Server thread/INFO]: Cane Growth Modifier: 100%
-[21:33:24] [Server thread/INFO]: Melon Growth Modifier: 100%
-[21:33:24] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[21:33:24] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[21:33:24] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[21:33:24] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[21:33:24] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[21:33:24] [Server thread/INFO]: Vine Growth Modifier: 100%
-[21:33:24] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[21:33:24] [Server thread/INFO]: Mob Spawn Range: 4
-[21:33:24] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[21:33:24] [Server thread/INFO]: Max TNT Explosions: 100
-[21:33:24] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[21:33:24] [Server thread/INFO]: Structure Info Saving: true
-[21:33:24] [Server thread/INFO]: Random Lighting Updates: false
-[21:33:24] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
-[21:33:24] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617 Monument: 10387313 Slime: 987234911
-[21:33:24] [Server thread/INFO]: -------- World Settings For [world_nether] --------
-[21:33:24] [Server thread/INFO]: Item Despawn Rate: 6000
-[21:33:24] [Server thread/INFO]: Item Merge Radius: 2.5
-[21:33:24] [Server thread/INFO]: Arrow Despawn Rate: 1200
-[21:33:24] [Server thread/INFO]: View Distance: 10
-[21:33:24] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[21:33:24] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[21:33:24] [Server thread/INFO]: Experience Merge Radius: 3.0
-[21:33:24] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[21:33:24] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
-[21:33:24] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[21:33:24] [Server thread/INFO]: Cane Growth Modifier: 100%
-[21:33:24] [Server thread/INFO]: Melon Growth Modifier: 100%
-[21:33:24] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[21:33:24] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[21:33:24] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[21:33:24] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[21:33:24] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[21:33:24] [Server thread/INFO]: Vine Growth Modifier: 100%
-[21:33:24] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[21:33:24] [Server thread/INFO]: Mob Spawn Range: 4
-[21:33:24] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[21:33:24] [Server thread/INFO]: Max TNT Explosions: 100
-[21:33:24] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[21:33:24] [Server thread/INFO]: Structure Info Saving: true
-[21:33:24] [Server thread/INFO]: Random Lighting Updates: false
-[21:33:24] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
-[21:33:24] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617 Monument: 10387313 Slime: 987234911
-[21:33:24] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
-[21:33:24] [Server thread/INFO]: Item Despawn Rate: 6000
-[21:33:24] [Server thread/INFO]: Item Merge Radius: 2.5
-[21:33:24] [Server thread/INFO]: Arrow Despawn Rate: 1200
-[21:33:24] [Server thread/INFO]: View Distance: 10
-[21:33:24] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[21:33:24] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[21:33:24] [Server thread/INFO]: Experience Merge Radius: 3.0
-[21:33:24] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[21:33:24] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
-[21:33:24] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[21:33:24] [Server thread/INFO]: Cane Growth Modifier: 100%
-[21:33:24] [Server thread/INFO]: Melon Growth Modifier: 100%
-[21:33:24] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[21:33:24] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[21:33:24] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[21:33:24] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[21:33:24] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[21:33:24] [Server thread/INFO]: Vine Growth Modifier: 100%
-[21:33:24] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[21:33:24] [Server thread/INFO]: Mob Spawn Range: 4
-[21:33:24] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[21:33:24] [Server thread/INFO]: Max TNT Explosions: 100
-[21:33:24] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[21:33:24] [Server thread/INFO]: Structure Info Saving: true
-[21:33:24] [Server thread/INFO]: Random Lighting Updates: false
-[21:33:24] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
-[21:33:24] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617 Monument: 10387313 Slime: 987234911
-[21:33:24] [Server thread/INFO]: Preparing start region for level 0 (Seed: -5467675282274869521)
-[21:33:25] [Server thread/INFO]: Preparing start region for level 1 (Seed: -5467675282274869521)
-[21:33:26] [Server thread/INFO]: Preparing start region for level 2 (Seed: -5467675282274869521)
-[21:33:26] [Server thread/INFO]: [RaspberryJuice] Enabling RaspberryJuice v1.11
-[21:33:26] [Server thread/INFO]: [RaspberryJuice] -----------------------------------------
-[21:33:26] [Server thread/INFO]: [RaspberryJuice] Welcome CodingAPE school Minecraft Python
-[21:33:26] [Server thread/INFO]: [RaspberryJuice] -----------------------------------------
-[21:33:26] [Server thread/INFO]: [RaspberryJuice] Using port 4711
-[21:33:26] [Server thread/INFO]: [RaspberryJuice] Using ABSOLUTE locations
-[21:33:26] [Server thread/INFO]: [RaspberryJuice] Using BOTH clicks for hits
-[21:33:26] [Server thread/INFO]: [RaspberryJuice] ThreadListener Started
-[21:33:26] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[21:33:26] [Server thread/INFO]: Done (1.947s)! For help, type "help" or "?"
-[21:33:26] [Server thread/INFO]: Starting remote control listener
-[21:33:26] [RCON Listener #1/INFO]: RCON running on 0.0.0.0:25575
-[21:34:55] [User Authenticator #1/INFO]: UUID of player jaypan8970 is ee41b7a2-4204-3e87-a30c-5d8a1d8af7bc
-[21:34:55] [Server thread/INFO]: jaypan8970[/127.0.0.1:13545] logged in with entity id 168 at ([world]243.52104729678211, 73.53292827534491, 99.31515853438788)
-[21:36:48] [Server thread/INFO]: jaypan8970 lost connection: Disconnected
-[21:36:56] [Server thread/INFO]: jaypan8970 left the game
+[09:01:03] [Server thread/INFO]: Starting minecraft server version 1.12.2
+[09:01:03] [Server thread/INFO]: Loading properties
+[09:01:03] [Server thread/INFO]: Default game type: CREATIVE
+[09:01:04] [Server thread/INFO]: This server is running CraftBukkit version git-Spigot-5695bca-53fccdf (MC: 1.12.2) (Implementing API version 1.12.2-R0.1-SNAPSHOT)
+[09:01:04] [Server thread/INFO]: Debug logging is disabled
+[09:01:04] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[09:01:04] [Server thread/INFO]: Using 4 threads for Netty based IO
+[09:01:04] [Server thread/INFO]: Generating keypair
+[09:01:04] [Server thread/INFO]: Starting Minecraft server on *:25565
+[09:01:04] [Server thread/INFO]: Using default channel type
+[09:01:05] [Server thread/INFO]: Set PluginClassLoader as parallel capable
+[09:01:06] [Server thread/INFO]: [RaspberryJuice] Loading RaspberryJuice v1.11
+[09:01:06] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[09:01:06] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[09:01:06] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[09:01:06] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[09:01:06] [Server thread/INFO]: **** Beginning UUID conversion, this may take A LONG time ****
+[09:01:06] [Server thread/INFO]: Preparing level "world"
+[09:01:06] [Server thread/INFO]: -------- World Settings For [world] --------
+[09:01:06] [Server thread/INFO]: Item Despawn Rate: 6000
+[09:01:06] [Server thread/INFO]: Item Merge Radius: 2.5
+[09:01:06] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[09:01:06] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[09:01:06] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[09:01:06] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[09:01:06] [Server thread/INFO]: View Distance: 10
+[09:01:06] [Server thread/INFO]: Experience Merge Radius: 3.0
+[09:01:06] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617 Monument: 10387313 Slime: 987234911
+[09:01:06] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[09:01:06] [Server thread/INFO]: Cane Growth Modifier: 100%
+[09:01:06] [Server thread/INFO]: Melon Growth Modifier: 100%
+[09:01:06] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[09:01:06] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[09:01:06] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[09:01:06] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[09:01:06] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[09:01:06] [Server thread/INFO]: Vine Growth Modifier: 100%
+[09:01:06] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[09:01:06] [Server thread/INFO]: Structure Info Saving: true
+[09:01:06] [Server thread/INFO]: Mob Spawn Range: 4
+[09:01:06] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[09:01:06] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[09:01:06] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[09:01:06] [Server thread/INFO]: Random Lighting Updates: false
+[09:01:06] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[09:01:06] [Server thread/INFO]: Max TNT Explosions: 100
+[09:01:06] [Server thread/INFO]: -------- World Settings For [world_nether] --------
+[09:01:06] [Server thread/INFO]: Item Despawn Rate: 6000
+[09:01:06] [Server thread/INFO]: Item Merge Radius: 2.5
+[09:01:06] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[09:01:06] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[09:01:06] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[09:01:06] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[09:01:06] [Server thread/INFO]: View Distance: 10
+[09:01:06] [Server thread/INFO]: Experience Merge Radius: 3.0
+[09:01:06] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617 Monument: 10387313 Slime: 987234911
+[09:01:06] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[09:01:06] [Server thread/INFO]: Cane Growth Modifier: 100%
+[09:01:06] [Server thread/INFO]: Melon Growth Modifier: 100%
+[09:01:06] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[09:01:06] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[09:01:06] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[09:01:06] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[09:01:06] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[09:01:06] [Server thread/INFO]: Vine Growth Modifier: 100%
+[09:01:06] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[09:01:06] [Server thread/INFO]: Structure Info Saving: true
+[09:01:06] [Server thread/INFO]: Mob Spawn Range: 4
+[09:01:06] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[09:01:06] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[09:01:06] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[09:01:06] [Server thread/INFO]: Random Lighting Updates: false
+[09:01:06] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[09:01:06] [Server thread/INFO]: Max TNT Explosions: 100
+[09:01:07] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[09:01:07] [Server thread/INFO]: Item Despawn Rate: 6000
+[09:01:07] [Server thread/INFO]: Item Merge Radius: 2.5
+[09:01:07] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[09:01:07] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[09:01:07] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[09:01:07] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[09:01:07] [Server thread/INFO]: View Distance: 10
+[09:01:07] [Server thread/INFO]: Experience Merge Radius: 3.0
+[09:01:07] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617 Monument: 10387313 Slime: 987234911
+[09:01:07] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[09:01:07] [Server thread/INFO]: Cane Growth Modifier: 100%
+[09:01:07] [Server thread/INFO]: Melon Growth Modifier: 100%
+[09:01:07] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[09:01:07] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[09:01:07] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[09:01:07] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[09:01:07] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[09:01:07] [Server thread/INFO]: Vine Growth Modifier: 100%
+[09:01:07] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[09:01:07] [Server thread/INFO]: Structure Info Saving: true
+[09:01:07] [Server thread/INFO]: Mob Spawn Range: 4
+[09:01:07] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[09:01:07] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[09:01:07] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[09:01:07] [Server thread/INFO]: Random Lighting Updates: false
+[09:01:07] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[09:01:07] [Server thread/INFO]: Max TNT Explosions: 100
+[09:01:07] [Server thread/INFO]: Preparing start region for level 0 (Seed: -5467675282274869521)
+[09:01:08] [Server thread/INFO]: Preparing spawn area: 76%
+[09:01:08] [Server thread/INFO]: Preparing start region for level 1 (Seed: -5467675282274869521)
+[09:01:09] [Server thread/INFO]: Preparing spawn area: 86%
+[09:01:09] [Server thread/INFO]: Preparing start region for level 2 (Seed: -5467675282274869521)
+[09:01:09] [Server thread/INFO]: [RaspberryJuice] Enabling RaspberryJuice v1.11
+[09:01:09] [Server thread/INFO]: [RaspberryJuice] -----------------------------------------
+[09:01:09] [Server thread/INFO]: [RaspberryJuice] Welcome CodingAPE school Minecraft Python
+[09:01:09] [Server thread/INFO]: [RaspberryJuice] -----------------------------------------
+[09:01:09] [Server thread/INFO]: [RaspberryJuice] Using port 4711
+[09:01:09] [Server thread/INFO]: [RaspberryJuice] Using ABSOLUTE locations
+[09:01:09] [Server thread/INFO]: [RaspberryJuice] Using BOTH clicks for hits
+[09:01:09] [Server thread/INFO]: [RaspberryJuice] ThreadListener Started
+[09:01:09] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[09:01:09] [Server thread/INFO]: Done (3.828s)! For help, type "help" or "?"
+[09:01:09] [Server thread/INFO]: Starting remote control listener
+[09:01:09] [RCON Listener #1/INFO]: RCON running on 0.0.0.0:25575
+[09:02:58] [User Authenticator #1/INFO]: UUID of player jaypan8970 is ee41b7a2-4204-3e87-a30c-5d8a1d8af7bc
+[09:02:59] [Server thread/INFO]: jaypan8970[/127.0.0.1:1729] logged in with entity id 170 at ([world]291.0903404917324, 76.0, 1.890204784486841)
+[09:03:18] [Server thread/INFO]: jaypan8970 issued server command: /locate
+[09:03:30] [Server thread/INFO]: jaypan8970 issued server command: /locate plain
+[09:03:30] [Server thread/INFO]: [jaypan8970: Unable to locate any plain feature]
+[09:04:31] [Thread-8/INFO]: [RaspberryJuice] Starting input thread
+[09:04:31] [Thread-7/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:1735.
+[09:04:31] [Thread-9/INFO]: [RaspberryJuice] Starting output thread!
+[09:04:53] [Thread-7/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:1740.
+[09:04:53] [Thread-11/INFO]: [RaspberryJuice] Starting output thread!
+[09:04:53] [Thread-10/INFO]: [RaspberryJuice] Starting input thread
+[09:04:53] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:1735.
+[09:04:54] [Thread-7/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:1741.
+[09:04:54] [Thread-13/INFO]: [RaspberryJuice] Starting output thread!
+[09:04:54] [Thread-12/INFO]: [RaspberryJuice] Starting input thread
+[09:04:55] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:1740.
+[09:05:11] [Thread-7/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:1745.
+[09:05:11] [Thread-14/INFO]: [RaspberryJuice] Starting input thread
+[09:05:11] [Thread-15/INFO]: [RaspberryJuice] Starting output thread!
+[09:05:11] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:1741.
+[09:17:11] [Thread-7/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:1826.
+[09:17:11] [Thread-17/INFO]: [RaspberryJuice] Starting output thread!
+[09:17:11] [Thread-16/INFO]: [RaspberryJuice] Starting input thread
+[09:17:11] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:1745.
+[09:17:58] [Thread-7/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:1831.
+[09:17:58] [Thread-18/INFO]: [RaspberryJuice] Starting input thread
+[09:17:58] [Thread-19/INFO]: [RaspberryJuice] Starting output thread!
+[09:20:04] [Thread-7/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:1838.
+[09:20:04] [Thread-21/INFO]: [RaspberryJuice] Starting output thread!
+[09:20:04] [Thread-20/INFO]: [RaspberryJuice] Starting input thread
+[09:20:05] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:1831.
+[09:21:00] [Thread-7/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:1840.
+[09:21:00] [Thread-22/INFO]: [RaspberryJuice] Starting input thread
+[09:21:00] [Thread-23/INFO]: [RaspberryJuice] Starting output thread!
+[09:21:00] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:1838.
+[09:23:17] [Thread-7/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:1852.
+[09:23:17] [Thread-25/INFO]: [RaspberryJuice] Starting output thread!
+[09:23:17] [Thread-24/INFO]: [RaspberryJuice] Starting input thread
+[09:23:18] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:1840.
+[09:23:37] [Thread-7/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:1856.
+[09:23:37] [Thread-26/INFO]: [RaspberryJuice] Starting input thread
+[09:23:37] [Thread-27/INFO]: [RaspberryJuice] Starting output thread!
+[09:23:38] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:1852.
+[09:23:51] [Thread-7/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:1857.
+[09:23:51] [Thread-28/INFO]: [RaspberryJuice] Starting input thread
+[09:23:51] [Thread-29/INFO]: [RaspberryJuice] Starting output thread!
+[09:23:51] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:1856.
+[09:24:02] [Thread-7/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:1858.
+[09:24:02] [Thread-30/INFO]: [RaspberryJuice] Starting input thread
+[09:24:02] [Thread-31/INFO]: [RaspberryJuice] Starting output thread!
+[09:24:03] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:1857.
+[09:24:07] [Thread-7/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:1859.
+[09:24:07] [Thread-33/INFO]: [RaspberryJuice] Starting output thread!
+[09:24:07] [Thread-32/INFO]: [RaspberryJuice] Starting input thread
+[09:24:07] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:1858.
+[09:25:41] [Server thread/INFO]: jaypan8970 issued server command: /seed
+[09:27:46] [Thread-7/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:1878.
+[09:27:46] [Thread-34/INFO]: [RaspberryJuice] Starting input thread
+[09:27:46] [Thread-35/INFO]: [RaspberryJuice] Starting output thread!
+[09:27:46] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:1859.
+[09:29:14] [Thread-7/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:1882.
+[09:29:14] [Thread-36/INFO]: [RaspberryJuice] Starting input thread
+[09:29:14] [Thread-37/INFO]: [RaspberryJuice] Starting output thread!
+[09:29:14] [Server thread/INFO]: -185,70,243[m
+[09:29:14] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:1878.
+[09:36:31] [Thread-7/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:1924.
+[09:36:31] [Thread-38/INFO]: [RaspberryJuice] Starting input thread
+[09:36:31] [Thread-39/INFO]: [RaspberryJuice] Starting output thread!
+[09:36:31] [Server thread/INFO]: Added 50 to the time
+[09:36:31] [Server thread/INFO]: Added 50 to the time
+[09:36:31] [Server thread/INFO]: Added 50 to the time
+[09:36:31] [Server thread/INFO]: Added 50 to the time
+[09:36:31] [Server thread/INFO]: Added 50 to the time
+[09:36:32] [Server thread/INFO]: Added 50 to the time
+[09:36:32] [Server thread/INFO]: Added 50 to the time
+[09:36:32] [Server thread/INFO]: Added 50 to the time
+[09:36:32] [Server thread/INFO]: Added 50 to the time
+[09:36:32] [Server thread/INFO]: Added 50 to the time
+[09:36:32] [Server thread/INFO]: Added 50 to the time
+[09:36:32] [Server thread/INFO]: Added 50 to the time
+[09:36:32] [Server thread/INFO]: Added 50 to the time
+[09:36:32] [Server thread/INFO]: Added 50 to the time
+[09:36:32] [Server thread/INFO]: Added 50 to the time
+[09:36:32] [Server thread/INFO]: Added 50 to the time
+[09:36:32] [Server thread/INFO]: Added 50 to the time
+[09:36:32] [Server thread/INFO]: Added 50 to the time
+[09:36:32] [Server thread/INFO]: Added 50 to the time
+[09:36:32] [Server thread/INFO]: Added 50 to the time
+[09:36:32] [Server thread/INFO]: Added 50 to the time
+[09:36:33] [Server thread/INFO]: Added 50 to the time
+[09:36:33] [Server thread/INFO]: Added 50 to the time
+[09:36:33] [Server thread/INFO]: Added 50 to the time
+[09:36:33] [Server thread/INFO]: Added 50 to the time
+[09:36:33] [Server thread/INFO]: Added 50 to the time
+[09:36:33] [Server thread/INFO]: Added 50 to the time
+[09:36:33] [Server thread/INFO]: Added 50 to the time
+[09:36:33] [Server thread/INFO]: Added 50 to the time
+[09:36:33] [Server thread/INFO]: Added 50 to the time
+[09:36:33] [Server thread/INFO]: Added 50 to the time
+[09:36:33] [Server thread/INFO]: Added 50 to the time
+[09:36:33] [Server thread/INFO]: Added 50 to the time
+[09:36:33] [Server thread/INFO]: Added 50 to the time
+[09:36:33] [Server thread/INFO]: Added 50 to the time
+[09:36:33] [Server thread/INFO]: Added 50 to the time
+[09:36:33] [Server thread/INFO]: Added 50 to the time
+[09:36:34] [Server thread/INFO]: Added 50 to the time
+[09:36:34] [Server thread/INFO]: Added 50 to the time
+[09:36:34] [Server thread/INFO]: Added 50 to the time
+[09:36:34] [Server thread/INFO]: Added 50 to the time
+[09:36:34] [Server thread/INFO]: Added 50 to the time
+[09:36:34] [Server thread/INFO]: Added 50 to the time
+[09:36:34] [Server thread/INFO]: Added 50 to the time
+[09:36:34] [Server thread/INFO]: Added 50 to the time
+[09:36:34] [Server thread/INFO]: Added 50 to the time
+[09:36:34] [Server thread/INFO]: Added 50 to the time
+[09:36:34] [Server thread/INFO]: Added 50 to the time
+[09:36:34] [Server thread/INFO]: Added 50 to the time
+[09:36:34] [Server thread/INFO]: Added 50 to the time
+[09:36:34] [Server thread/INFO]: Added 50 to the time
+[09:36:34] [Server thread/INFO]: Added 50 to the time
+[09:36:34] [Server thread/INFO]: Added 50 to the time
+[09:36:35] [Server thread/INFO]: Added 50 to the time
+[09:36:35] [Server thread/INFO]: Added 50 to the time
+[09:36:35] [Server thread/INFO]: Added 50 to the time
+[09:36:35] [Server thread/INFO]: Added 50 to the time
+[09:36:35] [Server thread/INFO]: Added 50 to the time
+[09:36:35] [Server thread/INFO]: Added 50 to the time
+[09:36:35] [Server thread/INFO]: Added 50 to the time
+[09:36:35] [Server thread/INFO]: Added 50 to the time
+[09:36:35] [Server thread/INFO]: Added 50 to the time
+[09:36:35] [Server thread/INFO]: Added 50 to the time
+[09:36:35] [Server thread/INFO]: Added 50 to the time
+[09:36:35] [Server thread/INFO]: Added 50 to the time
+[09:36:35] [Server thread/INFO]: Added 50 to the time
+[09:36:35] [Server thread/INFO]: Added 50 to the time
+[09:36:35] [Server thread/INFO]: Added 50 to the time
+[09:36:35] [Server thread/INFO]: Added 50 to the time
+[09:36:36] [Server thread/INFO]: Added 50 to the time
+[09:36:36] [Server thread/INFO]: Added 50 to the time
+[09:36:36] [Server thread/INFO]: Added 50 to the time
+[09:36:36] [Server thread/INFO]: Added 50 to the time
+[09:36:36] [Server thread/INFO]: Added 50 to the time
+[09:36:36] [Server thread/INFO]: Added 50 to the time
+[09:36:36] [Server thread/INFO]: Added 50 to the time
+[09:36:36] [Server thread/INFO]: Added 50 to the time
+[09:36:36] [Server thread/INFO]: Added 50 to the time
+[09:36:36] [Server thread/INFO]: Added 50 to the time
+[09:36:36] [Server thread/INFO]: Added 50 to the time
+[09:36:36] [Server thread/INFO]: Added 50 to the time
+[09:36:36] [Server thread/INFO]: Added 50 to the time
+[09:36:36] [Server thread/INFO]: Added 50 to the time
+[09:36:36] [Server thread/INFO]: Added 50 to the time
+[09:36:36] [Server thread/INFO]: Added 50 to the time
+[09:36:37] [Server thread/INFO]: Added 50 to the time
+[09:36:37] [Server thread/INFO]: Added 50 to the time
+[09:36:37] [Server thread/INFO]: Added 50 to the time
+[09:36:37] [Server thread/INFO]: Added 50 to the time
+[09:36:37] [Server thread/INFO]: Added 50 to the time
+[09:36:37] [Server thread/INFO]: Added 50 to the time
+[09:36:37] [Server thread/INFO]: Added 50 to the time
+[09:36:37] [Server thread/INFO]: Added 50 to the time
+[09:36:37] [Server thread/INFO]: Added 50 to the time
+[09:36:37] [Server thread/INFO]: Added 50 to the time
+[09:36:37] [Server thread/INFO]: Added 50 to the time
+[09:36:37] [Server thread/INFO]: Added 50 to the time
+[09:36:37] [Server thread/INFO]: Added 50 to the time
+[09:36:37] [Server thread/INFO]: Added 50 to the time
+[09:36:37] [Server thread/INFO]: Added 50 to the time
+[09:36:37] [Server thread/INFO]: Added 50 to the time
+[09:36:38] [Server thread/INFO]: Added 50 to the time
+[09:36:38] [Server thread/INFO]: Added 50 to the time
+[09:36:38] [Server thread/INFO]: Added 50 to the time
+[09:36:38] [Server thread/INFO]: Added 50 to the time
+[09:36:38] [Server thread/INFO]: Added 50 to the time
+[09:36:38] [Server thread/INFO]: Added 50 to the time
+[09:36:38] [Server thread/INFO]: Added 50 to the time
+[09:36:38] [Server thread/INFO]: Added 50 to the time
+[09:36:38] [Server thread/INFO]: Added 50 to the time
+[09:36:38] [Server thread/INFO]: Added 50 to the time
+[09:36:38] [Server thread/INFO]: Added 50 to the time
+[09:36:38] [Server thread/INFO]: Added 50 to the time
+[09:36:38] [Server thread/INFO]: Added 50 to the time
+[09:36:38] [Server thread/INFO]: Added 50 to the time
+[09:36:38] [Server thread/INFO]: Added 50 to the time
+[09:36:38] [Server thread/INFO]: Added 50 to the time
+[09:36:39] [Server thread/INFO]: Added 50 to the time
+[09:36:39] [Server thread/INFO]: Added 50 to the time
+[09:36:39] [Server thread/INFO]: Added 50 to the time
+[09:36:39] [Server thread/INFO]: Added 50 to the time
+[09:36:39] [Server thread/INFO]: Added 50 to the time
+[09:36:39] [Server thread/INFO]: Added 50 to the time
+[09:36:39] [Server thread/INFO]: Added 50 to the time
+[09:36:39] [Server thread/INFO]: Added 50 to the time
+[09:36:39] [Server thread/INFO]: Added 50 to the time
+[09:36:39] [Server thread/INFO]: Added 50 to the time
+[09:36:39] [Server thread/INFO]: Added 50 to the time
+[09:36:39] [Server thread/INFO]: Added 50 to the time
+[09:36:39] [Server thread/INFO]: Added 50 to the time
+[09:36:39] [Server thread/INFO]: Added 50 to the time
+[09:36:39] [Server thread/INFO]: Added 50 to the time
+[09:36:39] [Server thread/INFO]: Added 50 to the time
+[09:36:40] [Server thread/INFO]: Added 50 to the time
+[09:36:40] [Server thread/INFO]: Added 50 to the time
+[09:36:40] [Server thread/INFO]: Added 50 to the time
+[09:36:40] [Server thread/INFO]: Added 50 to the time
+[09:36:40] [Server thread/INFO]: Added 50 to the time
+[09:36:40] [Server thread/INFO]: Added 50 to the time
+[09:36:40] [Server thread/INFO]: Added 50 to the time
+[09:36:40] [Server thread/INFO]: Added 50 to the time
+[09:36:40] [Server thread/INFO]: Added 50 to the time
+[09:36:40] [Server thread/INFO]: Added 50 to the time
+[09:36:40] [Server thread/INFO]: Added 50 to the time
+[09:36:40] [Server thread/INFO]: Added 50 to the time
+[09:36:40] [Server thread/INFO]: Added 50 to the time
+[09:36:40] [Server thread/INFO]: Added 50 to the time
+[09:36:40] [Server thread/INFO]: Added 50 to the time
+[09:36:40] [Server thread/INFO]: Added 50 to the time
+[09:36:41] [Server thread/INFO]: Added 50 to the time
+[09:36:41] [Server thread/INFO]: Added 50 to the time
+[09:36:41] [Server thread/INFO]: Added 50 to the time
+[09:36:41] [Server thread/INFO]: Added 50 to the time
+[09:36:41] [Server thread/INFO]: Added 50 to the time
+[09:36:41] [Server thread/INFO]: Added 50 to the time
+[09:36:41] [Server thread/INFO]: Added 50 to the time
+[09:36:41] [Server thread/INFO]: Added 50 to the time
+[09:36:41] [Server thread/INFO]: Added 50 to the time
+[09:36:41] [Server thread/INFO]: Added 50 to the time
+[09:36:41] [Server thread/INFO]: Added 50 to the time
+[09:36:41] [Server thread/INFO]: Added 50 to the time
+[09:36:41] [Server thread/INFO]: Added 50 to the time
+[09:36:41] [Server thread/INFO]: Added 50 to the time
+[09:36:41] [Server thread/INFO]: Added 50 to the time
+[09:36:41] [Server thread/INFO]: Added 50 to the time
+[09:36:42] [Server thread/INFO]: Added 50 to the time
+[09:36:42] [Server thread/INFO]: Added 50 to the time
+[09:36:42] [Server thread/INFO]: Added 50 to the time
+[09:36:42] [Server thread/INFO]: Added 50 to the time
+[09:36:42] [Server thread/INFO]: Added 50 to the time
+[09:36:42] [Server thread/INFO]: Added 50 to the time
+[09:36:42] [Server thread/INFO]: Added 50 to the time
+[09:36:42] [Server thread/INFO]: Added 50 to the time
+[09:36:42] [Server thread/INFO]: Added 50 to the time
+[09:36:42] [Server thread/INFO]: Added 50 to the time
+[09:36:42] [Server thread/INFO]: Added 50 to the time
+[09:36:42] [Server thread/INFO]: Added 50 to the time
+[09:36:42] [Server thread/INFO]: Added 50 to the time
+[09:36:42] [Server thread/INFO]: Added 50 to the time
+[09:36:42] [Server thread/INFO]: Added 50 to the time
+[09:36:43] [Server thread/INFO]: Added 50 to the time
+[09:36:43] [Server thread/INFO]: Added 50 to the time
+[09:36:43] [Server thread/INFO]: Added 50 to the time
+[09:36:43] [Server thread/INFO]: Added 50 to the time
+[09:36:43] [Server thread/INFO]: Added 50 to the time
+[09:36:43] [Server thread/INFO]: Added 50 to the time
+[09:36:43] [Server thread/INFO]: Added 50 to the time
+[09:36:43] [Server thread/INFO]: Added 50 to the time
+[09:36:43] [Server thread/INFO]: Added 50 to the time
+[09:36:43] [Server thread/INFO]: Added 50 to the time
+[09:36:43] [Server thread/INFO]: Added 50 to the time
+[09:36:43] [Server thread/INFO]: Added 50 to the time
+[09:36:43] [Server thread/INFO]: Added 50 to the time
+[09:36:43] [Server thread/INFO]: Added 50 to the time
+[09:36:43] [Server thread/INFO]: Added 50 to the time
+[09:36:43] [Server thread/INFO]: Added 50 to the time
+[09:36:44] [Server thread/INFO]: Added 50 to the time
+[09:36:44] [Server thread/INFO]: Added 50 to the time
+[09:36:44] [Server thread/INFO]: Added 50 to the time
+[09:36:44] [Server thread/INFO]: Added 50 to the time
+[09:36:44] [Server thread/INFO]: Added 50 to the time
+[09:36:44] [Server thread/INFO]: Added 50 to the time
+[09:36:44] [Server thread/INFO]: Added 50 to the time
+[09:36:44] [Server thread/INFO]: Added 50 to the time
+[09:36:44] [Server thread/INFO]: Added 50 to the time
+[09:36:44] [Server thread/INFO]: Added 50 to the time
+[09:36:44] [Server thread/INFO]: Added 50 to the time
+[09:36:44] [Server thread/INFO]: Added 50 to the time
+[09:36:44] [Server thread/INFO]: Added 50 to the time
+[09:36:44] [Server thread/INFO]: Added 50 to the time
+[09:36:44] [Server thread/INFO]: Added 50 to the time
+[09:36:44] [Server thread/INFO]: Added 50 to the time
+[09:36:45] [Server thread/INFO]: Added 50 to the time
+[09:36:45] [Server thread/INFO]: Added 50 to the time
+[09:36:45] [Server thread/INFO]: Added 50 to the time
+[09:36:45] [Server thread/INFO]: Added 50 to the time
+[09:36:45] [Server thread/INFO]: Added 50 to the time
+[09:36:45] [Server thread/INFO]: Added 50 to the time
+[09:36:45] [Server thread/INFO]: Added 50 to the time
+[09:36:45] [Server thread/INFO]: Added 50 to the time
+[09:36:45] [Server thread/INFO]: Added 50 to the time
+[09:36:45] [Server thread/INFO]: Added 50 to the time
+[09:36:45] [Server thread/INFO]: Added 50 to the time
+[09:36:45] [Server thread/INFO]: Added 50 to the time
+[09:36:45] [Server thread/INFO]: Added 50 to the time
+[09:36:45] [Server thread/INFO]: Added 50 to the time
+[09:36:45] [Server thread/INFO]: Added 50 to the time
+[09:36:45] [Server thread/INFO]: Added 50 to the time
+[09:36:46] [Server thread/INFO]: Added 50 to the time
+[09:36:46] [Server thread/INFO]: Added 50 to the time
+[09:36:46] [Server thread/INFO]: Added 50 to the time
+[09:36:46] [Server thread/INFO]: Added 50 to the time
+[09:36:46] [Server thread/INFO]: Added 50 to the time
+[09:36:46] [Server thread/INFO]: Added 50 to the time
+[09:36:46] [Server thread/INFO]: Added 50 to the time
+[09:36:46] [Server thread/INFO]: Added 50 to the time
+[09:36:46] [Server thread/INFO]: Added 50 to the time
+[09:36:46] [Server thread/INFO]: Added 50 to the time
+[09:36:46] [Server thread/INFO]: Added 50 to the time
+[09:36:46] [Server thread/INFO]: Added 50 to the time
+[09:36:46] [Server thread/INFO]: Added 50 to the time
+[09:36:46] [Server thread/INFO]: Added 50 to the time
+[09:36:46] [Server thread/INFO]: Added 50 to the time
+[09:36:46] [Server thread/INFO]: Added 50 to the time
+[09:36:47] [Server thread/INFO]: Added 50 to the time
+[09:36:47] [Server thread/INFO]: Added 50 to the time
+[09:36:47] [Server thread/INFO]: Added 50 to the time
+[09:36:47] [Server thread/INFO]: Added 50 to the time
+[09:36:47] [Server thread/INFO]: Added 50 to the time
+[09:36:47] [Server thread/INFO]: Added 50 to the time
+[09:36:47] [Server thread/INFO]: Added 50 to the time
+[09:36:47] [Server thread/INFO]: Added 50 to the time
+[09:36:47] [Server thread/INFO]: Added 50 to the time
+[09:36:47] [Server thread/INFO]: Added 50 to the time
+[09:36:47] [Server thread/INFO]: Added 50 to the time
+[09:36:47] [Server thread/INFO]: Added 50 to the time
+[09:36:47] [Server thread/INFO]: Added 50 to the time
+[09:36:47] [Server thread/INFO]: Added 50 to the time
+[09:36:47] [Server thread/INFO]: Added 50 to the time
+[09:36:47] [Server thread/INFO]: Added 50 to the time
+[09:36:48] [Server thread/INFO]: Added 50 to the time
+[09:36:48] [Server thread/INFO]: Added 50 to the time
+[09:36:48] [Server thread/INFO]: Added 50 to the time
+[09:36:48] [Server thread/INFO]: Added 50 to the time
+[09:36:48] [Server thread/INFO]: Added 50 to the time
+[09:36:48] [Server thread/INFO]: Added 50 to the time
+[09:36:48] [Server thread/INFO]: Added 50 to the time
+[09:36:48] [Server thread/INFO]: Added 50 to the time
+[09:36:48] [Server thread/INFO]: Added 50 to the time
+[09:36:48] [Server thread/INFO]: Added 50 to the time
+[09:36:48] [Server thread/INFO]: Added 50 to the time
+[09:36:48] [Server thread/INFO]: Added 50 to the time
+[09:36:48] [Server thread/INFO]: Added 50 to the time
+[09:36:48] [Server thread/INFO]: Added 50 to the time
+[09:36:48] [Server thread/INFO]: Added 50 to the time
+[09:36:48] [Server thread/INFO]: Added 50 to the time
+[09:36:49] [Server thread/INFO]: Added 50 to the time
+[09:36:49] [Server thread/INFO]: Added 50 to the time
+[09:36:49] [Server thread/INFO]: Added 50 to the time
+[09:36:49] [Server thread/INFO]: Added 50 to the time
+[09:36:49] [Server thread/INFO]: Added 50 to the time
+[09:36:49] [Server thread/INFO]: Added 50 to the time
+[09:36:49] [Server thread/INFO]: Added 50 to the time
+[09:36:49] [Server thread/INFO]: Added 50 to the time
+[09:36:49] [Server thread/INFO]: Added 50 to the time
+[09:36:49] [Server thread/INFO]: Added 50 to the time
+[09:36:49] [Server thread/INFO]: Added 50 to the time
+[09:36:49] [Server thread/INFO]: Added 50 to the time
+[09:36:49] [Server thread/INFO]: Added 50 to the time
+[09:36:49] [Server thread/INFO]: Added 50 to the time
+[09:36:49] [Server thread/INFO]: Added 50 to the time
+[09:36:49] [Server thread/INFO]: Added 50 to the time
+[09:36:50] [Server thread/INFO]: Added 50 to the time
+[09:36:50] [Server thread/INFO]: Added 50 to the time
+[09:36:50] [Server thread/INFO]: Added 50 to the time
+[09:36:50] [Server thread/INFO]: Added 50 to the time
+[09:36:50] [Server thread/INFO]: Added 50 to the time
+[09:36:50] [Server thread/INFO]: Added 50 to the time
+[09:36:50] [Server thread/INFO]: Added 50 to the time
+[09:36:50] [Server thread/INFO]: Added 50 to the time
+[09:36:50] [Server thread/INFO]: Added 50 to the time
+[09:36:50] [Server thread/INFO]: Added 50 to the time
+[09:36:50] [Server thread/INFO]: Added 50 to the time
+[09:36:50] [Server thread/INFO]: Added 50 to the time
+[09:36:50] [Server thread/INFO]: Added 50 to the time
+[09:36:50] [Server thread/INFO]: Added 50 to the time
+[09:36:50] [Server thread/INFO]: Added 50 to the time
+[09:36:50] [Server thread/INFO]: Added 50 to the time
+[09:36:51] [Server thread/INFO]: Added 50 to the time
+[09:36:51] [Server thread/INFO]: Added 50 to the time
+[09:36:51] [Server thread/INFO]: Added 50 to the time
+[09:36:51] [Server thread/INFO]: Added 50 to the time
+[09:36:51] [Server thread/INFO]: Added 50 to the time
+[09:36:51] [Server thread/INFO]: Added 50 to the time
+[09:36:51] [Server thread/INFO]: Added 50 to the time
+[09:36:51] [Server thread/INFO]: Added 50 to the time
+[09:36:51] [Server thread/INFO]: Added 50 to the time
+[09:36:51] [Server thread/INFO]: Added 50 to the time
+[09:36:51] [Server thread/INFO]: Added 50 to the time
+[09:36:51] [Server thread/INFO]: Added 50 to the time
+[09:36:51] [Server thread/INFO]: Added 50 to the time
+[09:36:51] [Server thread/INFO]: Added 50 to the time
+[09:36:51] [Server thread/INFO]: Added 50 to the time
+[09:36:51] [Server thread/INFO]: Added 50 to the time
+[09:36:52] [Server thread/INFO]: Added 50 to the time
+[09:36:52] [Server thread/INFO]: Added 50 to the time
+[09:36:52] [Server thread/INFO]: Added 50 to the time
+[09:36:52] [Server thread/INFO]: Added 50 to the time
+[09:36:52] [Server thread/INFO]: Added 50 to the time
+[09:36:52] [Server thread/INFO]: Added 50 to the time
+[09:36:52] [Server thread/INFO]: Added 50 to the time
+[09:36:52] [Server thread/INFO]: Added 50 to the time
+[09:36:52] [Server thread/INFO]: Added 50 to the time
+[09:36:52] [Server thread/INFO]: Added 50 to the time
+[09:36:52] [Server thread/INFO]: Added 50 to the time
+[09:36:52] [Server thread/INFO]: Added 50 to the time
+[09:36:52] [Server thread/INFO]: Added 50 to the time
+[09:36:52] [Server thread/INFO]: Added 50 to the time
+[09:36:52] [Server thread/INFO]: Added 50 to the time
+[09:36:52] [Server thread/INFO]: Added 50 to the time
+[09:36:53] [Server thread/INFO]: Added 50 to the time
+[09:36:53] [Server thread/INFO]: Added 50 to the time
+[09:36:53] [Server thread/INFO]: Added 50 to the time
+[09:36:53] [Server thread/INFO]: Added 50 to the time
+[09:36:53] [Server thread/INFO]: Added 50 to the time
+[09:36:53] [Server thread/INFO]: Added 50 to the time
+[09:36:53] [Server thread/INFO]: Added 50 to the time
+[09:36:53] [Server thread/INFO]: Added 50 to the time
+[09:36:53] [Server thread/INFO]: Added 50 to the time
+[09:36:53] [Server thread/INFO]: Added 50 to the time
+[09:36:53] [Server thread/INFO]: Added 50 to the time
+[09:36:53] [Server thread/INFO]: Added 50 to the time
+[09:36:53] [Server thread/INFO]: Added 50 to the time
+[09:36:53] [Server thread/INFO]: Added 50 to the time
+[09:36:53] [Server thread/INFO]: Added 50 to the time
+[09:36:53] [Server thread/INFO]: Added 50 to the time
+[09:36:54] [Server thread/INFO]: Added 50 to the time
+[09:36:54] [Server thread/INFO]: Added 50 to the time
+[09:36:54] [Server thread/INFO]: Added 50 to the time
+[09:36:54] [Server thread/INFO]: Added 50 to the time
+[09:36:54] [Server thread/INFO]: Added 50 to the time
+[09:36:54] [Server thread/INFO]: Added 50 to the time
+[09:36:54] [Server thread/INFO]: Added 50 to the time
+[09:36:54] [Server thread/INFO]: Added 50 to the time
+[09:36:54] [Server thread/INFO]: Added 50 to the time
+[09:36:54] [Server thread/INFO]: Added 50 to the time
+[09:36:54] [Server thread/INFO]: Added 50 to the time
+[09:36:54] [Server thread/INFO]: Added 50 to the time
+[09:36:54] [Server thread/INFO]: Added 50 to the time
+[09:36:54] [Server thread/INFO]: Added 50 to the time
+[09:36:54] [Server thread/INFO]: Added 50 to the time
+[09:36:54] [Server thread/INFO]: Added 50 to the time
+[09:36:54] [Server thread/INFO]: Added 50 to the time
+[09:36:55] [Server thread/INFO]: Added 50 to the time
+[09:36:55] [Server thread/INFO]: Added 50 to the time
+[09:36:55] [Server thread/INFO]: Added 50 to the time
+[09:36:55] [Server thread/INFO]: Added 50 to the time
+[09:36:55] [Server thread/INFO]: Added 50 to the time
+[09:36:55] [Server thread/INFO]: Added 50 to the time
+[09:36:55] [Server thread/INFO]: Added 50 to the time
+[09:36:55] [Server thread/INFO]: Added 50 to the time
+[09:36:55] [Server thread/INFO]: Added 50 to the time
+[09:36:55] [Server thread/INFO]: Added 50 to the time
+[09:36:55] [Server thread/INFO]: Added 50 to the time
+[09:36:55] [Server thread/INFO]: Added 50 to the time
+[09:36:55] [Server thread/INFO]: Added 50 to the time
+[09:36:55] [Server thread/INFO]: Added 50 to the time
+[09:36:55] [Server thread/INFO]: Added 50 to the time
+[09:36:56] [Server thread/INFO]: Added 50 to the time
+[09:36:56] [Server thread/INFO]: Added 50 to the time
+[09:36:56] [Server thread/INFO]: Added 50 to the time
+[09:36:56] [Server thread/INFO]: Added 50 to the time
+[09:36:56] [Server thread/INFO]: Added 50 to the time
+[09:36:56] [Server thread/INFO]: Added 50 to the time
+[09:36:56] [Server thread/INFO]: Added 50 to the time
+[09:36:56] [Server thread/INFO]: Added 50 to the time
+[09:36:56] [Server thread/INFO]: Added 50 to the time
+[09:36:56] [Server thread/INFO]: Added 50 to the time
+[09:36:56] [Server thread/INFO]: Added 50 to the time
+[09:36:56] [Server thread/INFO]: Added 50 to the time
+[09:36:56] [Server thread/INFO]: Added 50 to the time
+[09:36:56] [Server thread/INFO]: Added 50 to the time
+[09:36:56] [Server thread/INFO]: Added 50 to the time
+[09:36:56] [Server thread/INFO]: Added 50 to the time
+[09:36:57] [Server thread/INFO]: Added 50 to the time
+[09:36:57] [Server thread/INFO]: Added 50 to the time
+[09:36:57] [Server thread/INFO]: Added 50 to the time
+[09:36:57] [Server thread/INFO]: Added 50 to the time
+[09:36:57] [Server thread/INFO]: Added 50 to the time
+[09:36:57] [Server thread/INFO]: Added 50 to the time
+[09:36:57] [Server thread/INFO]: Added 50 to the time
+[09:36:57] [Server thread/INFO]: Added 50 to the time
+[09:36:57] [Server thread/INFO]: Added 50 to the time
+[09:36:57] [Server thread/INFO]: Added 50 to the time
+[09:36:57] [Server thread/INFO]: Added 50 to the time
+[09:36:57] [Server thread/INFO]: Added 50 to the time
+[09:36:57] [Server thread/INFO]: Added 50 to the time
+[09:36:57] [Server thread/INFO]: Added 50 to the time
+[09:36:57] [Server thread/INFO]: Added 50 to the time
+[09:36:57] [Server thread/INFO]: Added 50 to the time
+[09:36:58] [Server thread/INFO]: Added 50 to the time
+[09:36:58] [Server thread/INFO]: Added 50 to the time
+[09:36:58] [Server thread/INFO]: Added 50 to the time
+[09:36:58] [Server thread/INFO]: Added 50 to the time
+[09:36:58] [Server thread/INFO]: Added 50 to the time
+[09:36:58] [Server thread/INFO]: Added 50 to the time
+[09:36:58] [Server thread/INFO]: Added 50 to the time
+[09:36:58] [Server thread/INFO]: Added 50 to the time
+[09:36:58] [Server thread/INFO]: Added 50 to the time
+[09:36:58] [Server thread/INFO]: Added 50 to the time
+[09:36:58] [Server thread/INFO]: Added 50 to the time
+[09:36:58] [Server thread/INFO]: Added 50 to the time
+[09:36:58] [Server thread/INFO]: Added 50 to the time
+[09:36:58] [Server thread/INFO]: Added 50 to the time
+[09:36:58] [Server thread/INFO]: Added 50 to the time
+[09:36:58] [Server thread/INFO]: Added 50 to the time
+[09:36:59] [Server thread/INFO]: Added 50 to the time
+[09:36:59] [Server thread/INFO]: Added 50 to the time
+[09:36:59] [Server thread/INFO]: Added 50 to the time
+[09:36:59] [Server thread/INFO]: Added 50 to the time
+[09:36:59] [Server thread/INFO]: Added 50 to the time
+[09:36:59] [Server thread/INFO]: Added 50 to the time
+[09:36:59] [Server thread/INFO]: Added 50 to the time
+[09:36:59] [Server thread/INFO]: Added 50 to the time
+[09:36:59] [Server thread/INFO]: Added 50 to the time
+[09:36:59] [Server thread/INFO]: Added 50 to the time
+[09:36:59] [Server thread/INFO]: Added 50 to the time
+[09:36:59] [Server thread/INFO]: Added 50 to the time
+[09:36:59] [Server thread/INFO]: Added 50 to the time
+[09:36:59] [Server thread/INFO]: Added 50 to the time
+[09:36:59] [Server thread/INFO]: Added 50 to the time
+[09:36:59] [Server thread/INFO]: Added 50 to the time
+[09:37:00] [Server thread/INFO]: Added 50 to the time
+[09:37:00] [Server thread/INFO]: Added 50 to the time
+[09:37:00] [Server thread/INFO]: Added 50 to the time
+[09:37:00] [Server thread/INFO]: Added 50 to the time
+[09:37:00] [Server thread/INFO]: Added 50 to the time
+[09:37:00] [Server thread/INFO]: Added 50 to the time
+[09:37:00] [Server thread/INFO]: Added 50 to the time
+[09:37:00] [Server thread/INFO]: Added 50 to the time
+[09:37:00] [Server thread/INFO]: Added 50 to the time
+[09:37:00] [Server thread/INFO]: Added 50 to the time
+[09:37:00] [Server thread/INFO]: Added 50 to the time
+[09:37:00] [Server thread/INFO]: Added 50 to the time
+[09:37:00] [Server thread/INFO]: Added 50 to the time
+[09:37:00] [Server thread/INFO]: Added 50 to the time
+[09:37:00] [Server thread/INFO]: Added 50 to the time
+[09:37:00] [Server thread/INFO]: Added 50 to the time
+[09:37:01] [Server thread/INFO]: Added 50 to the time
+[09:37:01] [Server thread/INFO]: Added 50 to the time
+[09:37:01] [Server thread/INFO]: Added 50 to the time
+[09:37:01] [Server thread/INFO]: Added 50 to the time
+[09:37:01] [Server thread/INFO]: Added 50 to the time
+[09:37:01] [Server thread/INFO]: Added 50 to the time
+[09:37:01] [Server thread/INFO]: Added 50 to the time
+[09:37:01] [Server thread/INFO]: Added 50 to the time
+[09:37:01] [Server thread/INFO]: Added 50 to the time
+[09:37:01] [Server thread/INFO]: Added 50 to the time
+[09:37:01] [Server thread/INFO]: Added 50 to the time
+[09:37:01] [Server thread/INFO]: Added 50 to the time
+[09:37:01] [Server thread/INFO]: Added 50 to the time
+[09:37:01] [Server thread/INFO]: Added 50 to the time
+[09:37:01] [Server thread/INFO]: Added 50 to the time
+[09:37:01] [Server thread/INFO]: Added 50 to the time
+[09:37:02] [Server thread/INFO]: Added 50 to the time
+[09:37:02] [Server thread/INFO]: Added 50 to the time
+[09:37:02] [Server thread/INFO]: Added 50 to the time
+[09:37:02] [Server thread/INFO]: Added 50 to the time
+[09:37:02] [Server thread/INFO]: Added 50 to the time
+[09:37:02] [Server thread/INFO]: Added 50 to the time
+[09:37:02] [Server thread/INFO]: Added 50 to the time
+[09:37:02] [Server thread/INFO]: Added 50 to the time
+[09:37:02] [Server thread/INFO]: Added 50 to the time
+[09:37:02] [Server thread/INFO]: Added 50 to the time
+[09:37:02] [Server thread/INFO]: Added 50 to the time
+[09:37:02] [Server thread/INFO]: Added 50 to the time
+[09:37:02] [Server thread/INFO]: Added 50 to the time
+[09:37:02] [Server thread/INFO]: Added 50 to the time
+[09:37:02] [Server thread/INFO]: Added 50 to the time
+[09:37:02] [Server thread/INFO]: Added 50 to the time
+[09:37:03] [Server thread/INFO]: Added 50 to the time
+[09:37:03] [Server thread/INFO]: Added 50 to the time
+[09:37:03] [Server thread/INFO]: Added 50 to the time
+[09:37:03] [Server thread/INFO]: Added 50 to the time
+[09:37:03] [Server thread/INFO]: Added 50 to the time
+[09:37:03] [Server thread/INFO]: Added 50 to the time
+[09:37:03] [Server thread/INFO]: Added 50 to the time
+[09:37:03] [Server thread/INFO]: Added 50 to the time
+[09:37:03] [Server thread/INFO]: Added 50 to the time
+[09:37:03] [Server thread/INFO]: Added 50 to the time
+[09:37:03] [Server thread/INFO]: Added 50 to the time
+[09:37:03] [Server thread/INFO]: Added 50 to the time
+[09:37:03] [Server thread/INFO]: Added 50 to the time
+[09:37:03] [Server thread/INFO]: Added 50 to the time
+[09:37:03] [Server thread/INFO]: Added 50 to the time
+[09:37:03] [Server thread/INFO]: Added 50 to the time
+[09:37:04] [Server thread/INFO]: Added 50 to the time
+[09:37:04] [Server thread/INFO]: Added 50 to the time
+[09:37:04] [Server thread/INFO]: Added 50 to the time
+[09:37:04] [Server thread/INFO]: Added 50 to the time
+[09:37:04] [Server thread/INFO]: Added 50 to the time
+[09:37:04] [Server thread/INFO]: Added 50 to the time
+[09:37:04] [Server thread/INFO]: Added 50 to the time
+[09:37:04] [Server thread/INFO]: Added 50 to the time
+[09:37:04] [Server thread/INFO]: Added 50 to the time
+[09:37:04] [Server thread/INFO]: Added 50 to the time
+[09:37:04] [Server thread/INFO]: Added 50 to the time
+[09:37:04] [Server thread/INFO]: Added 50 to the time
+[09:37:04] [Server thread/INFO]: Added 50 to the time
+[09:37:04] [Server thread/INFO]: Added 50 to the time
+[09:37:04] [Server thread/INFO]: Added 50 to the time
+[09:37:04] [Server thread/INFO]: Added 50 to the time
+[09:37:05] [Server thread/INFO]: Added 50 to the time
+[09:37:05] [Server thread/INFO]: Added 50 to the time
+[09:37:05] [Server thread/INFO]: Added 50 to the time
+[09:37:05] [Server thread/INFO]: Added 50 to the time
+[09:37:05] [Server thread/INFO]: Added 50 to the time
+[09:37:05] [Server thread/INFO]: Added 50 to the time
+[09:37:05] [Server thread/INFO]: Added 50 to the time
+[09:37:05] [Server thread/INFO]: Added 50 to the time
+[09:37:05] [Server thread/INFO]: Added 50 to the time
+[09:37:05] [Server thread/INFO]: Added 50 to the time
+[09:37:05] [Server thread/INFO]: Added 50 to the time
+[09:37:05] [Server thread/INFO]: Added 50 to the time
+[09:37:05] [Server thread/INFO]: Added 50 to the time
+[09:37:05] [Server thread/INFO]: Added 50 to the time
+[09:37:05] [Server thread/INFO]: Added 50 to the time
+[09:37:05] [Server thread/INFO]: Added 50 to the time
+[09:37:06] [Server thread/INFO]: Added 50 to the time
+[09:37:06] [Server thread/INFO]: Added 50 to the time
+[09:37:06] [Server thread/INFO]: Added 50 to the time
+[09:37:06] [Server thread/INFO]: Added 50 to the time
+[09:37:06] [Server thread/INFO]: Added 50 to the time
+[09:37:06] [Server thread/INFO]: Added 50 to the time
+[09:37:06] [Server thread/INFO]: Added 50 to the time
+[09:37:06] [Server thread/INFO]: Added 50 to the time
+[09:37:06] [Server thread/INFO]: Added 50 to the time
+[09:37:06] [Server thread/INFO]: Added 50 to the time
+[09:37:06] [Server thread/INFO]: Added 50 to the time
+[09:37:06] [Server thread/INFO]: Added 50 to the time
+[09:37:06] [Server thread/INFO]: Added 50 to the time
+[09:37:06] [Server thread/INFO]: Added 50 to the time
+[09:37:06] [Server thread/INFO]: Added 50 to the time
+[09:37:07] [Server thread/INFO]: Added 50 to the time
+[09:37:07] [Server thread/INFO]: Added 50 to the time
+[09:37:07] [Server thread/INFO]: Added 50 to the time
+[09:37:07] [Server thread/INFO]: Added 50 to the time
+[09:37:07] [Server thread/INFO]: Added 50 to the time
+[09:37:07] [Server thread/INFO]: Added 50 to the time
+[09:37:07] [Server thread/INFO]: Added 50 to the time
+[09:37:07] [Server thread/INFO]: Added 50 to the time
+[09:37:07] [Server thread/INFO]: Added 50 to the time
+[09:37:07] [Server thread/INFO]: Added 50 to the time
+[09:37:07] [Server thread/INFO]: Added 50 to the time
+[09:37:07] [Server thread/INFO]: Added 50 to the time
+[09:37:07] [Server thread/INFO]: Added 50 to the time
+[09:37:07] [Server thread/INFO]: Added 50 to the time
+[09:37:07] [Server thread/INFO]: Added 50 to the time
+[09:37:07] [Server thread/INFO]: Added 50 to the time
+[09:37:07] [Server thread/INFO]: Added 50 to the time
+[09:37:08] [Server thread/INFO]: Added 50 to the time
+[09:37:08] [Server thread/INFO]: Added 50 to the time
+[09:37:08] [Server thread/INFO]: Added 50 to the time
+[09:37:08] [Server thread/INFO]: Added 50 to the time
+[09:37:08] [Server thread/INFO]: Added 50 to the time
+[09:37:08] [Server thread/INFO]: Added 50 to the time
+[09:37:08] [Server thread/INFO]: Added 50 to the time
+[09:37:08] [Server thread/INFO]: Added 50 to the time
+[09:37:08] [Server thread/INFO]: Added 50 to the time
+[09:37:08] [Server thread/INFO]: Added 50 to the time
+[09:37:08] [Server thread/INFO]: Added 50 to the time
+[09:37:08] [Server thread/INFO]: Added 50 to the time
+[09:37:08] [Server thread/INFO]: Added 50 to the time
+[09:37:08] [Server thread/INFO]: Added 50 to the time
+[09:37:08] [Server thread/INFO]: Added 50 to the time
+[09:37:09] [Server thread/INFO]: Added 50 to the time
+[09:37:09] [Server thread/INFO]: Added 50 to the time
+[09:37:09] [Server thread/INFO]: Added 50 to the time
+[09:37:09] [Server thread/INFO]: Added 50 to the time
+[09:37:09] [Server thread/INFO]: Added 50 to the time
+[09:37:09] [Server thread/INFO]: Added 50 to the time
+[09:37:09] [Server thread/INFO]: Added 50 to the time
+[09:37:09] [Server thread/INFO]: Added 50 to the time
+[09:37:09] [Server thread/INFO]: Added 50 to the time
+[09:37:09] [Server thread/INFO]: Added 50 to the time
+[09:37:09] [Server thread/INFO]: Added 50 to the time
+[09:37:09] [Server thread/INFO]: Added 50 to the time
+[09:37:09] [Server thread/INFO]: Added 50 to the time
+[09:37:09] [Server thread/INFO]: Added 50 to the time
+[09:37:09] [Server thread/INFO]: Added 50 to the time
+[09:37:09] [Server thread/INFO]: Added 50 to the time
+[09:37:10] [Server thread/INFO]: Added 50 to the time
+[09:37:10] [Server thread/INFO]: Added 50 to the time
+[09:37:10] [Server thread/INFO]: Added 50 to the time
+[09:37:10] [Server thread/INFO]: Added 50 to the time
+[09:37:10] [Server thread/INFO]: Added 50 to the time
+[09:37:10] [Server thread/INFO]: Added 50 to the time
+[09:37:10] [Server thread/INFO]: Added 50 to the time
+[09:37:10] [Server thread/INFO]: Added 50 to the time
+[09:37:10] [Server thread/INFO]: Added 50 to the time
+[09:37:10] [Server thread/INFO]: Added 50 to the time
+[09:37:10] [Server thread/INFO]: Added 50 to the time
+[09:37:10] [Server thread/INFO]: Added 50 to the time
+[09:37:10] [Server thread/INFO]: Added 50 to the time
+[09:37:10] [Server thread/INFO]: Added 50 to the time
+[09:37:10] [Server thread/INFO]: Added 50 to the time
+[09:37:10] [Server thread/INFO]: Added 50 to the time
+[09:37:10] [Server thread/INFO]: Added 50 to the time
+[09:37:11] [Server thread/INFO]: Added 50 to the time
+[09:37:11] [Server thread/INFO]: Added 50 to the time
+[09:37:11] [Server thread/INFO]: Added 50 to the time
+[09:37:11] [Server thread/INFO]: Added 50 to the time
+[09:37:11] [Server thread/INFO]: Added 50 to the time
+[09:37:11] [Server thread/INFO]: Added 50 to the time
+[09:37:11] [Server thread/INFO]: Added 50 to the time
+[09:37:11] [Server thread/INFO]: Added 50 to the time
+[09:37:11] [Server thread/INFO]: Added 50 to the time
+[09:37:11] [Server thread/INFO]: Added 50 to the time
+[09:37:11] [Server thread/INFO]: Added 50 to the time
+[09:37:11] [Server thread/INFO]: Added 50 to the time
+[09:37:11] [Server thread/INFO]: Added 50 to the time
+[09:37:11] [Server thread/INFO]: Added 50 to the time
+[09:37:11] [Server thread/INFO]: Added 50 to the time
+[09:37:12] [Server thread/INFO]: Added 50 to the time
+[09:37:12] [Server thread/INFO]: Added 50 to the time
+[09:37:12] [Server thread/INFO]: Added 50 to the time
+[09:37:12] [Server thread/INFO]: Added 50 to the time
+[09:37:12] [Server thread/INFO]: Added 50 to the time
+[09:37:12] [Server thread/INFO]: Added 50 to the time
+[09:37:12] [Server thread/INFO]: Added 50 to the time
+[09:37:12] [Server thread/INFO]: Added 50 to the time
+[09:37:12] [Server thread/INFO]: Added 50 to the time
+[09:37:12] [Server thread/INFO]: Added 50 to the time
+[09:37:12] [Server thread/INFO]: Added 50 to the time
+[09:37:12] [Server thread/INFO]: Added 50 to the time
+[09:37:12] [Server thread/INFO]: Added 50 to the time
+[09:37:12] [Server thread/INFO]: Added 50 to the time
+[09:37:12] [Server thread/INFO]: Added 50 to the time
+[09:37:12] [Server thread/INFO]: Added 50 to the time
+[09:37:13] [Server thread/INFO]: Added 50 to the time
+[09:37:13] [Server thread/INFO]: Added 50 to the time
+[09:37:13] [Server thread/INFO]: Added 50 to the time
+[09:37:13] [Server thread/INFO]: Added 50 to the time
+[09:37:13] [Server thread/INFO]: Added 50 to the time
+[09:37:13] [Server thread/INFO]: Added 50 to the time
+[09:37:13] [Server thread/INFO]: Added 50 to the time
+[09:37:13] [Server thread/INFO]: Added 50 to the time
+[09:37:13] [Server thread/INFO]: Added 50 to the time
+[09:37:13] [Server thread/INFO]: Added 50 to the time
+[09:37:13] [Server thread/INFO]: Added 50 to the time
+[09:37:13] [Server thread/INFO]: Added 50 to the time
+[09:37:13] [Server thread/INFO]: Added 50 to the time
+[09:37:13] [Server thread/INFO]: Added 50 to the time
+[09:37:13] [Server thread/INFO]: Added 50 to the time
+[09:37:13] [Server thread/INFO]: Added 50 to the time
+[09:37:14] [Server thread/INFO]: Added 50 to the time
+[09:37:14] [Server thread/INFO]: Added 50 to the time
+[09:37:14] [Server thread/INFO]: Added 50 to the time
+[09:37:14] [Server thread/INFO]: Added 50 to the time
+[09:37:14] [Server thread/INFO]: Added 50 to the time
+[09:37:14] [Server thread/INFO]: Added 50 to the time
+[09:37:14] [Server thread/INFO]: Added 50 to the time
+[09:37:14] [Server thread/INFO]: Added 50 to the time
+[09:37:14] [Server thread/INFO]: Added 50 to the time
+[09:37:14] [Server thread/INFO]: Added 50 to the time
+[09:37:14] [Server thread/INFO]: Added 50 to the time
+[09:37:14] [Server thread/INFO]: Added 50 to the time
+[09:37:14] [Server thread/INFO]: Added 50 to the time
+[09:37:14] [Server thread/INFO]: Added 50 to the time
+[09:37:14] [Server thread/INFO]: Added 50 to the time
+[09:37:14] [Server thread/INFO]: Added 50 to the time
+[09:37:15] [Server thread/INFO]: Added 50 to the time
+[09:37:15] [Server thread/INFO]: Added 50 to the time
+[09:37:15] [Server thread/INFO]: Added 50 to the time
+[09:37:15] [Server thread/INFO]: Added 50 to the time
+[09:37:15] [Server thread/INFO]: Added 50 to the time
+[09:37:15] [Server thread/INFO]: Added 50 to the time
+[09:37:15] [Server thread/INFO]: Added 50 to the time
+[09:37:15] [Server thread/INFO]: Added 50 to the time
+[09:37:15] [Server thread/INFO]: Added 50 to the time
+[09:37:15] [Server thread/INFO]: Added 50 to the time
+[09:37:15] [Server thread/INFO]: Added 50 to the time
+[09:37:15] [Server thread/INFO]: Added 50 to the time
+[09:37:15] [Server thread/INFO]: Added 50 to the time
+[09:37:15] [Server thread/INFO]: Added 50 to the time
+[09:37:15] [Server thread/INFO]: Added 50 to the time
+[09:37:15] [Server thread/INFO]: Added 50 to the time
+[09:37:16] [Server thread/INFO]: Added 50 to the time
+[09:37:16] [Server thread/INFO]: Added 50 to the time
+[09:37:16] [Server thread/INFO]: Added 50 to the time
+[09:37:16] [Server thread/INFO]: Added 50 to the time
+[09:37:16] [Server thread/INFO]: Added 50 to the time
+[09:37:16] [Server thread/INFO]: Added 50 to the time
+[09:37:16] [Server thread/INFO]: Added 50 to the time
+[09:37:16] [Server thread/INFO]: Added 50 to the time
+[09:37:16] [Server thread/INFO]: Added 50 to the time
+[09:37:16] [Server thread/INFO]: Added 50 to the time
+[09:37:16] [Server thread/INFO]: Added 50 to the time
+[09:37:16] [Server thread/INFO]: Added 50 to the time
+[09:37:16] [Server thread/INFO]: Added 50 to the time
+[09:37:16] [Server thread/INFO]: Added 50 to the time
+[09:37:16] [Server thread/INFO]: Added 50 to the time
+[09:37:16] [Server thread/INFO]: Added 50 to the time
+[09:37:17] [Server thread/INFO]: Added 50 to the time
+[09:37:17] [Server thread/INFO]: Added 50 to the time
+[09:37:17] [Server thread/INFO]: Added 50 to the time
+[09:37:17] [Server thread/INFO]: Added 50 to the time
+[09:37:17] [Server thread/INFO]: Added 50 to the time
+[09:37:17] [Server thread/INFO]: Added 50 to the time
+[09:37:17] [Server thread/INFO]: Added 50 to the time
+[09:37:17] [Server thread/INFO]: Added 50 to the time
+[09:37:17] [Server thread/INFO]: Added 50 to the time
+[09:37:17] [Server thread/INFO]: Added 50 to the time
+[09:37:17] [Server thread/INFO]: Added 50 to the time
+[09:37:17] [Server thread/INFO]: Added 50 to the time
+[09:37:17] [Server thread/INFO]: Added 50 to the time
+[09:37:17] [Server thread/INFO]: Added 50 to the time
+[09:37:17] [Server thread/INFO]: Added 50 to the time
+[09:37:17] [Server thread/INFO]: Added 50 to the time
+[09:37:18] [Server thread/INFO]: Added 50 to the time
+[09:37:18] [Server thread/INFO]: Added 50 to the time
+[09:37:18] [Server thread/INFO]: Added 50 to the time
+[09:37:18] [Server thread/INFO]: Added 50 to the time
+[09:37:18] [Server thread/INFO]: Added 50 to the time
+[09:37:18] [Server thread/INFO]: Added 50 to the time
+[09:37:18] [Server thread/INFO]: Added 50 to the time
+[09:37:18] [Server thread/INFO]: Added 50 to the time
+[09:37:18] [Server thread/INFO]: Added 50 to the time
+[09:37:18] [Server thread/INFO]: Added 50 to the time
+[09:37:18] [Server thread/INFO]: Added 50 to the time
+[09:37:18] [Server thread/INFO]: Added 50 to the time
+[09:37:18] [Server thread/INFO]: Added 50 to the time
+[09:37:18] [Server thread/INFO]: Added 50 to the time
+[09:37:18] [Server thread/INFO]: Added 50 to the time
+[09:37:18] [Server thread/INFO]: Added 50 to the time
+[09:37:19] [Server thread/INFO]: Added 50 to the time
+[09:37:19] [Server thread/INFO]: Added 50 to the time
+[09:37:19] [Server thread/INFO]: Added 50 to the time
+[09:37:19] [Server thread/INFO]: Added 50 to the time
+[09:37:19] [Server thread/INFO]: Added 50 to the time
+[09:37:19] [Server thread/INFO]: Added 50 to the time
+[09:37:19] [Server thread/INFO]: Added 50 to the time
+[09:37:19] [Server thread/INFO]: Added 50 to the time
+[09:37:19] [Server thread/INFO]: Added 50 to the time
+[09:37:19] [Server thread/INFO]: Added 50 to the time
+[09:37:19] [Server thread/INFO]: Added 50 to the time
+[09:37:19] [Server thread/INFO]: Added 50 to the time
+[09:37:19] [Server thread/INFO]: Added 50 to the time
+[09:37:19] [Server thread/INFO]: Added 50 to the time
+[09:37:19] [Server thread/INFO]: Added 50 to the time
+[09:37:19] [Server thread/INFO]: Added 50 to the time
+[09:37:20] [Server thread/INFO]: Added 50 to the time
+[09:37:20] [Server thread/INFO]: Added 50 to the time
+[09:37:20] [Server thread/INFO]: Added 50 to the time
+[09:37:20] [Server thread/INFO]: Added 50 to the time
+[09:37:20] [Server thread/INFO]: Added 50 to the time
+[09:37:20] [Server thread/INFO]: Added 50 to the time
+[09:37:20] [Server thread/INFO]: Added 50 to the time
+[09:37:20] [Server thread/INFO]: Added 50 to the time
+[09:37:20] [Server thread/INFO]: Added 50 to the time
+[09:37:20] [Server thread/INFO]: Added 50 to the time
+[09:37:20] [Server thread/INFO]: Added 50 to the time
+[09:37:20] [Server thread/INFO]: Added 50 to the time
+[09:37:20] [Server thread/INFO]: Added 50 to the time
+[09:37:20] [Server thread/INFO]: Added 50 to the time
+[09:37:20] [Server thread/INFO]: Added 50 to the time
+[09:37:20] [Server thread/INFO]: Added 50 to the time
+[09:37:21] [Server thread/INFO]: Added 50 to the time
+[09:37:21] [Server thread/INFO]: Added 50 to the time
+[09:37:21] [Server thread/INFO]: Added 50 to the time
+[09:37:21] [Server thread/INFO]: Added 50 to the time
+[09:37:21] [Server thread/INFO]: Added 50 to the time
+[09:37:21] [Server thread/INFO]: Added 50 to the time
+[09:37:21] [Server thread/INFO]: Added 50 to the time
+[09:37:21] [Server thread/INFO]: Added 50 to the time
+[09:37:21] [Server thread/INFO]: Added 50 to the time
+[09:37:21] [Server thread/INFO]: Added 50 to the time
+[09:37:21] [Server thread/INFO]: Added 50 to the time
+[09:37:21] [Server thread/INFO]: Added 50 to the time
+[09:37:21] [Server thread/INFO]: Added 50 to the time
+[09:37:21] [Server thread/INFO]: Added 50 to the time
+[09:37:21] [Server thread/INFO]: Added 50 to the time
+[09:37:21] [Server thread/INFO]: Added 50 to the time
+[09:37:22] [Server thread/INFO]: Added 50 to the time
+[09:37:22] [Server thread/INFO]: Added 50 to the time
+[09:37:22] [Server thread/INFO]: Added 50 to the time
+[09:37:22] [Server thread/INFO]: Added 50 to the time
+[09:37:22] [Server thread/INFO]: Added 50 to the time
+[09:37:22] [Server thread/INFO]: Added 50 to the time
+[09:37:22] [Server thread/INFO]: Added 50 to the time
+[09:37:22] [Server thread/INFO]: Added 50 to the time
+[09:37:22] [Server thread/INFO]: Added 50 to the time
+[09:37:22] [Server thread/INFO]: Added 50 to the time
+[09:37:22] [Server thread/INFO]: Added 50 to the time
+[09:37:22] [Server thread/INFO]: Added 50 to the time
+[09:37:22] [Server thread/INFO]: Added 50 to the time
+[09:37:22] [Server thread/INFO]: Added 50 to the time
+[09:37:22] [Server thread/INFO]: Added 50 to the time
+[09:37:22] [Server thread/INFO]: Added 50 to the time
+[09:37:23] [Server thread/INFO]: Added 50 to the time
+[09:37:23] [Server thread/INFO]: Added 50 to the time
+[09:37:23] [Server thread/INFO]: Added 50 to the time
+[09:37:23] [Server thread/INFO]: Added 50 to the time
+[09:37:23] [Server thread/INFO]: Added 50 to the time
+[09:37:23] [Server thread/INFO]: Added 50 to the time
+[09:37:23] [Server thread/INFO]: Added 50 to the time
+[09:37:23] [Server thread/INFO]: Added 50 to the time
+[09:37:23] [Server thread/INFO]: Added 50 to the time
+[09:37:23] [Server thread/INFO]: Added 50 to the time
+[09:37:23] [Server thread/INFO]: Added 50 to the time
+[09:37:23] [Server thread/INFO]: Added 50 to the time
+[09:37:23] [Server thread/INFO]: Added 50 to the time
+[09:37:23] [Server thread/INFO]: Added 50 to the time
+[09:37:23] [Server thread/INFO]: Added 50 to the time
+[09:37:23] [Server thread/INFO]: Added 50 to the time
+[09:37:24] [Server thread/INFO]: Added 50 to the time
+[09:37:24] [Server thread/INFO]: Added 50 to the time
+[09:37:24] [Server thread/INFO]: Added 50 to the time
+[09:37:24] [Server thread/INFO]: Added 50 to the time
+[09:37:24] [Server thread/INFO]: Added 50 to the time
+[09:37:24] [Server thread/INFO]: Added 50 to the time
+[09:37:24] [Server thread/INFO]: Added 50 to the time
+[09:37:24] [Server thread/INFO]: Added 50 to the time
+[09:37:24] [Server thread/INFO]: Added 50 to the time
+[09:37:24] [Server thread/INFO]: Added 50 to the time
+[09:37:24] [Server thread/INFO]: Added 50 to the time
+[09:37:24] [Server thread/INFO]: Added 50 to the time
+[09:37:24] [Server thread/INFO]: Added 50 to the time
+[09:37:24] [Server thread/INFO]: Added 50 to the time
+[09:37:24] [Server thread/INFO]: Added 50 to the time
+[09:37:24] [Server thread/INFO]: Added 50 to the time
+[09:37:25] [Server thread/INFO]: Added 50 to the time
+[09:37:25] [Server thread/INFO]: Added 50 to the time
+[09:37:25] [Server thread/INFO]: Added 50 to the time
+[09:37:25] [Server thread/INFO]: Added 50 to the time
+[09:37:25] [Server thread/INFO]: Added 50 to the time
+[09:37:25] [Server thread/INFO]: Added 50 to the time
+[09:37:25] [Server thread/INFO]: Added 50 to the time
+[09:37:25] [Server thread/INFO]: Added 50 to the time
+[09:37:25] [Server thread/INFO]: Added 50 to the time
+[09:37:25] [Server thread/INFO]: Added 50 to the time
+[09:37:25] [Server thread/INFO]: Added 50 to the time
+[09:37:25] [Server thread/INFO]: Added 50 to the time
+[09:37:25] [Server thread/INFO]: Added 50 to the time
+[09:37:25] [Server thread/INFO]: Added 50 to the time
+[09:37:25] [Server thread/INFO]: Added 50 to the time
+[09:37:25] [Server thread/INFO]: Added 50 to the time
+[09:37:26] [Server thread/INFO]: Added 50 to the time
+[09:37:26] [Server thread/INFO]: Added 50 to the time
+[09:37:26] [Server thread/INFO]: Added 50 to the time
+[09:37:26] [Server thread/INFO]: Added 50 to the time
+[09:37:26] [Server thread/INFO]: Added 50 to the time
+[09:37:26] [Server thread/INFO]: Added 50 to the time
+[09:37:26] [Server thread/INFO]: Added 50 to the time
+[09:37:26] [Server thread/INFO]: Added 50 to the time
+[09:37:26] [Server thread/INFO]: Added 50 to the time
+[09:37:26] [Server thread/INFO]: Added 50 to the time
+[09:37:26] [Server thread/INFO]: Added 50 to the time
+[09:37:26] [Server thread/INFO]: Added 50 to the time
+[09:37:26] [Server thread/INFO]: Added 50 to the time
+[09:37:26] [Server thread/INFO]: Added 50 to the time
+[09:37:26] [Server thread/INFO]: Added 50 to the time
+[09:37:26] [Server thread/INFO]: Added 50 to the time
+[09:37:27] [Server thread/INFO]: Added 50 to the time
+[09:37:27] [Server thread/INFO]: Added 50 to the time
+[09:37:27] [Server thread/INFO]: Added 50 to the time
+[09:37:27] [Server thread/INFO]: Added 50 to the time
+[09:37:27] [Server thread/INFO]: Added 50 to the time
+[09:37:27] [Server thread/INFO]: Added 50 to the time
+[09:37:27] [Server thread/INFO]: Added 50 to the time
+[09:37:27] [Server thread/INFO]: Added 50 to the time
+[09:37:27] [Server thread/INFO]: Added 50 to the time
+[09:37:27] [Server thread/INFO]: Added 50 to the time
+[09:37:27] [Server thread/INFO]: Added 50 to the time
+[09:37:27] [Server thread/INFO]: Added 50 to the time
+[09:37:27] [Server thread/INFO]: Added 50 to the time
+[09:37:27] [Server thread/INFO]: Added 50 to the time
+[09:37:27] [Server thread/INFO]: Added 50 to the time
+[09:37:27] [Server thread/INFO]: Added 50 to the time
+[09:37:28] [Server thread/INFO]: Added 50 to the time
+[09:37:28] [Server thread/INFO]: Added 50 to the time
+[09:37:28] [Server thread/INFO]: Added 50 to the time
+[09:37:28] [Server thread/INFO]: Added 50 to the time
+[09:37:28] [Server thread/INFO]: Added 50 to the time
+[09:37:28] [Server thread/INFO]: Added 50 to the time
+[09:37:28] [Server thread/INFO]: Added 50 to the time
+[09:37:28] [Server thread/INFO]: Added 50 to the time
+[09:37:28] [Server thread/INFO]: Added 50 to the time
+[09:37:28] [Server thread/INFO]: Added 50 to the time
+[09:37:28] [Server thread/INFO]: Added 50 to the time
+[09:37:28] [Server thread/INFO]: Added 50 to the time
+[09:37:28] [Server thread/INFO]: Added 50 to the time
+[09:37:28] [Server thread/INFO]: Added 50 to the time
+[09:37:28] [Server thread/INFO]: Added 50 to the time
+[09:37:28] [Server thread/INFO]: Added 50 to the time
+[09:37:29] [Server thread/INFO]: Added 50 to the time
+[09:37:29] [Server thread/INFO]: Added 50 to the time
+[09:37:29] [Server thread/INFO]: Added 50 to the time
+[09:37:29] [Server thread/INFO]: Added 50 to the time
+[09:37:29] [Server thread/INFO]: Added 50 to the time
+[09:37:29] [Server thread/INFO]: Added 50 to the time
+[09:37:29] [Server thread/INFO]: Added 50 to the time
+[09:37:29] [Server thread/INFO]: Added 50 to the time
+[09:37:29] [Server thread/INFO]: Added 50 to the time
+[09:37:29] [Server thread/INFO]: Added 50 to the time
+[09:37:29] [Server thread/INFO]: Added 50 to the time
+[09:37:29] [Server thread/INFO]: Added 50 to the time
+[09:37:29] [Server thread/INFO]: Added 50 to the time
+[09:37:29] [Server thread/INFO]: Added 50 to the time
+[09:37:29] [Server thread/INFO]: Added 50 to the time
+[09:37:29] [Server thread/INFO]: Added 50 to the time
+[09:37:30] [Server thread/INFO]: Added 50 to the time
+[09:37:30] [Server thread/INFO]: Added 50 to the time
+[09:37:30] [Server thread/INFO]: Added 50 to the time
+[09:37:30] [Server thread/INFO]: Added 50 to the time
+[09:37:30] [Server thread/INFO]: Added 50 to the time
+[09:37:30] [Server thread/INFO]: Added 50 to the time
+[09:37:30] [Server thread/INFO]: Added 50 to the time
+[09:37:30] [Server thread/INFO]: Added 50 to the time
+[09:37:30] [Server thread/INFO]: Added 50 to the time
+[09:37:30] [Server thread/INFO]: Added 50 to the time
+[09:37:30] [Server thread/INFO]: Added 50 to the time
+[09:37:30] [Server thread/INFO]: Added 50 to the time
+[09:37:30] [Server thread/INFO]: Added 50 to the time
+[09:37:30] [Server thread/INFO]: Added 50 to the time
+[09:37:30] [Server thread/INFO]: Added 50 to the time
+[09:37:30] [Server thread/INFO]: Added 50 to the time
+[09:37:30] [Server thread/INFO]: Added 50 to the time
+[09:37:31] [Server thread/INFO]: Added 50 to the time
+[09:37:31] [Server thread/INFO]: Added 50 to the time
+[09:37:31] [Server thread/INFO]: Added 50 to the time
+[09:37:31] [Server thread/INFO]: Added 50 to the time
+[09:37:31] [Server thread/INFO]: Added 50 to the time
+[09:37:31] [Server thread/INFO]: Added 50 to the time
+[09:37:31] [Server thread/INFO]: Added 50 to the time
+[09:37:31] [Server thread/INFO]: Added 50 to the time
+[09:37:31] [Server thread/INFO]: Added 50 to the time
+[09:37:31] [Server thread/INFO]: Added 50 to the time
+[09:37:31] [Server thread/INFO]: Added 50 to the time
+[09:37:31] [Server thread/INFO]: Added 50 to the time
+[09:37:31] [Server thread/INFO]: Added 50 to the time
+[09:37:31] [Server thread/INFO]: Added 50 to the time
+[09:37:31] [Server thread/INFO]: Added 50 to the time
+[09:37:32] [Server thread/INFO]: Added 50 to the time
+[09:37:32] [Server thread/INFO]: Added 50 to the time
+[09:37:32] [Server thread/INFO]: Added 50 to the time
+[09:37:32] [Server thread/INFO]: Added 50 to the time
+[09:37:32] [Server thread/INFO]: Added 50 to the time
+[09:37:32] [Server thread/INFO]: Added 50 to the time
+[09:37:32] [Server thread/INFO]: Added 50 to the time
+[09:37:32] [Server thread/INFO]: Added 50 to the time
+[09:37:32] [Server thread/INFO]: Added 50 to the time
+[09:37:32] [Server thread/INFO]: Added 50 to the time
+[09:37:32] [Server thread/INFO]: Added 50 to the time
+[09:37:32] [Server thread/INFO]: Added 50 to the time
+[09:37:32] [Server thread/INFO]: Added 50 to the time
+[09:37:32] [Server thread/INFO]: Added 50 to the time
+[09:37:32] [Server thread/INFO]: Added 50 to the time
+[09:37:32] [Server thread/INFO]: Added 50 to the time
+[09:37:32] [Server thread/INFO]: Added 50 to the time
+[09:37:33] [Server thread/INFO]: Added 50 to the time
+[09:37:33] [Server thread/INFO]: Added 50 to the time
+[09:37:33] [Server thread/INFO]: Added 50 to the time
+[09:37:33] [Server thread/INFO]: Added 50 to the time
+[09:37:33] [Server thread/INFO]: Added 50 to the time
+[09:37:33] [Server thread/INFO]: Added 50 to the time
+[09:37:33] [Server thread/INFO]: Added 50 to the time
+[09:37:33] [Server thread/INFO]: Added 50 to the time
+[09:37:33] [Server thread/INFO]: Added 50 to the time
+[09:37:33] [Server thread/INFO]: Added 50 to the time
+[09:37:33] [Server thread/INFO]: Added 50 to the time
+[09:37:33] [Server thread/INFO]: Added 50 to the time
+[09:37:33] [Server thread/INFO]: Added 50 to the time
+[09:37:33] [Server thread/INFO]: Added 50 to the time
+[09:37:33] [Server thread/INFO]: Added 50 to the time
+[09:37:33] [Server thread/INFO]: Added 50 to the time
+[09:37:34] [Server thread/INFO]: Added 50 to the time
+[09:37:34] [Server thread/INFO]: Added 50 to the time
+[09:37:34] [Server thread/INFO]: Added 50 to the time
+[09:37:34] [Server thread/INFO]: Added 50 to the time
+[09:37:34] [Server thread/INFO]: Added 50 to the time
+[09:37:34] [Server thread/INFO]: Added 50 to the time
+[09:37:34] [Server thread/INFO]: Added 50 to the time
+[09:37:34] [Server thread/INFO]: Added 50 to the time
+[09:37:34] [Server thread/INFO]: Added 50 to the time
+[09:37:34] [Server thread/INFO]: Added 50 to the time
+[09:37:34] [Server thread/INFO]: Added 50 to the time
+[09:37:34] [Server thread/INFO]: Added 50 to the time
+[09:37:34] [Server thread/INFO]: Added 50 to the time
+[09:37:34] [Server thread/INFO]: Added 50 to the time
+[09:37:34] [Server thread/INFO]: Added 50 to the time
+[09:37:34] [Server thread/INFO]: Added 50 to the time
+[09:37:35] [Server thread/INFO]: Added 50 to the time
+[09:37:35] [Server thread/INFO]: Added 50 to the time
+[09:37:35] [Server thread/INFO]: Added 50 to the time
+[09:37:35] [Server thread/INFO]: Added 50 to the time
+[09:37:35] [Server thread/INFO]: Added 50 to the time
+[09:37:35] [Server thread/INFO]: Added 50 to the time
+[09:37:35] [Server thread/INFO]: Added 50 to the time
+[09:37:35] [Server thread/INFO]: Added 50 to the time
+[09:37:35] [Server thread/INFO]: Added 50 to the time
+[09:37:35] [Server thread/INFO]: Added 50 to the time
+[09:37:35] [Server thread/INFO]: Added 50 to the time
+[09:37:35] [Server thread/INFO]: Added 50 to the time
+[09:37:35] [Server thread/INFO]: Added 50 to the time
+[09:37:35] [Server thread/INFO]: Added 50 to the time
+[09:37:35] [Server thread/INFO]: Added 50 to the time
+[09:37:35] [Server thread/INFO]: Added 50 to the time
+[09:37:36] [Server thread/INFO]: Added 50 to the time
+[09:37:36] [Server thread/INFO]: Added 50 to the time
+[09:37:36] [Server thread/INFO]: Added 50 to the time
+[09:37:36] [Server thread/INFO]: Added 50 to the time
+[09:37:36] [Server thread/INFO]: Added 50 to the time
+[09:37:36] [Server thread/INFO]: Added 50 to the time
+[09:37:36] [Server thread/INFO]: Added 50 to the time
+[09:37:36] [Server thread/INFO]: Added 50 to the time
+[09:37:36] [Server thread/INFO]: Added 50 to the time
+[09:37:36] [Server thread/INFO]: Added 50 to the time
+[09:37:36] [Server thread/INFO]: Added 50 to the time
+[09:37:36] [Server thread/INFO]: Added 50 to the time
+[09:37:36] [Server thread/INFO]: Added 50 to the time
+[09:37:36] [Server thread/INFO]: Added 50 to the time
+[09:37:36] [Server thread/INFO]: Added 50 to the time
+[09:37:36] [Server thread/INFO]: Added 50 to the time
+[09:37:37] [Server thread/INFO]: Added 50 to the time
+[09:37:37] [Server thread/INFO]: Added 50 to the time
+[09:37:37] [Server thread/INFO]: Added 50 to the time
+[09:37:37] [Server thread/INFO]: Added 50 to the time
+[09:37:37] [Server thread/INFO]: Added 50 to the time
+[09:37:37] [Server thread/INFO]: Added 50 to the time
+[09:37:37] [Server thread/INFO]: Added 50 to the time
+[09:37:37] [Server thread/INFO]: Added 50 to the time
+[09:37:37] [Server thread/INFO]: Added 50 to the time
+[09:37:37] [Server thread/INFO]: Added 50 to the time
+[09:37:37] [Server thread/INFO]: Added 50 to the time
+[09:37:37] [Server thread/INFO]: Added 50 to the time
+[09:37:37] [Server thread/INFO]: Added 50 to the time
+[09:37:37] [Server thread/INFO]: Added 50 to the time
+[09:37:37] [Server thread/INFO]: Added 50 to the time
+[09:37:38] [Server thread/INFO]: Added 50 to the time
+[09:37:38] [Server thread/INFO]: Added 50 to the time
+[09:37:38] [Server thread/INFO]: Added 50 to the time
+[09:37:38] [Server thread/INFO]: Added 50 to the time
+[09:37:38] [Server thread/INFO]: Added 50 to the time
+[09:37:38] [Server thread/INFO]: Added 50 to the time
+[09:37:38] [Server thread/INFO]: Added 50 to the time
+[09:37:38] [Server thread/INFO]: Added 50 to the time
+[09:37:38] [Server thread/INFO]: Added 50 to the time
+[09:37:38] [Server thread/INFO]: Added 50 to the time
+[09:37:38] [Server thread/INFO]: Added 50 to the time
+[09:37:38] [Server thread/INFO]: Added 50 to the time
+[09:37:38] [Server thread/INFO]: Added 50 to the time
+[09:37:38] [Server thread/INFO]: Added 50 to the time
+[09:37:38] [Server thread/INFO]: Added 50 to the time
+[09:37:38] [Server thread/INFO]: Added 50 to the time
+[09:37:39] [Server thread/INFO]: Added 50 to the time
+[09:37:39] [Server thread/INFO]: Added 50 to the time
+[09:37:39] [Server thread/INFO]: Added 50 to the time
+[09:37:39] [Server thread/INFO]: Added 50 to the time
+[09:37:39] [Server thread/INFO]: Added 50 to the time
+[09:37:39] [Server thread/INFO]: Added 50 to the time
+[09:37:39] [Server thread/INFO]: Added 50 to the time
+[09:37:39] [Server thread/INFO]: Added 50 to the time
+[09:37:39] [Server thread/INFO]: Added 50 to the time
+[09:37:39] [Server thread/INFO]: Added 50 to the time
+[09:37:39] [Server thread/INFO]: Added 50 to the time
+[09:37:39] [Server thread/INFO]: Added 50 to the time
+[09:37:39] [Server thread/INFO]: Added 50 to the time
+[09:37:39] [Server thread/INFO]: Added 50 to the time
+[09:37:39] [Server thread/INFO]: Added 50 to the time
+[09:37:39] [Server thread/INFO]: Added 50 to the time
+[09:37:40] [Server thread/INFO]: Added 50 to the time
+[09:37:40] [Server thread/INFO]: Added 50 to the time
+[09:37:40] [Server thread/INFO]: Added 50 to the time
+[09:37:40] [Server thread/INFO]: Added 50 to the time
+[09:37:40] [Server thread/INFO]: Added 50 to the time
+[09:37:40] [Server thread/INFO]: Added 50 to the time
+[09:37:40] [Server thread/INFO]: Added 50 to the time
+[09:37:40] [Server thread/INFO]: Added 50 to the time
+[09:37:40] [Server thread/INFO]: Added 50 to the time
+[09:37:40] [Server thread/INFO]: Added 50 to the time
+[09:37:40] [Server thread/INFO]: Added 50 to the time
+[09:37:40] [Server thread/INFO]: Added 50 to the time
+[09:37:40] [Server thread/INFO]: Added 50 to the time
+[09:37:40] [Server thread/INFO]: Added 50 to the time
+[09:37:40] [Server thread/INFO]: Added 50 to the time
+[09:37:40] [Server thread/INFO]: Added 50 to the time
+[09:37:41] [Server thread/INFO]: Added 50 to the time
+[09:37:41] [Server thread/INFO]: Added 50 to the time
+[09:37:41] [Server thread/INFO]: Added 50 to the time
+[09:37:41] [Server thread/INFO]: Added 50 to the time
+[09:37:41] [Server thread/INFO]: Added 50 to the time
+[09:37:41] [Server thread/INFO]: Added 50 to the time
+[09:37:41] [Server thread/INFO]: Added 50 to the time
+[09:37:41] [Server thread/INFO]: Added 50 to the time
+[09:37:41] [Server thread/INFO]: Added 50 to the time
+[09:37:41] [Server thread/INFO]: Added 50 to the time
+[09:37:41] [Server thread/INFO]: Added 50 to the time
+[09:37:41] [Server thread/INFO]: Added 50 to the time
+[09:37:41] [Server thread/INFO]: Added 50 to the time
+[09:37:41] [Server thread/INFO]: Added 50 to the time
+[09:37:41] [Server thread/INFO]: Added 50 to the time
+[09:37:41] [Server thread/INFO]: Added 50 to the time
+[09:37:42] [Server thread/INFO]: Added 50 to the time
+[09:37:42] [Server thread/INFO]: Added 50 to the time
+[09:37:42] [Server thread/INFO]: Added 50 to the time
+[09:37:42] [Server thread/INFO]: Added 50 to the time
+[09:37:42] [Server thread/INFO]: Added 50 to the time
+[09:37:42] [Server thread/INFO]: Added 50 to the time
+[09:37:42] [Server thread/INFO]: Added 50 to the time
+[09:37:42] [Server thread/INFO]: Added 50 to the time
+[09:37:42] [Server thread/INFO]: Added 50 to the time
+[09:37:42] [Server thread/INFO]: Added 50 to the time
+[09:37:42] [Server thread/INFO]: Added 50 to the time
+[09:37:42] [Server thread/INFO]: Added 50 to the time
+[09:37:42] [Server thread/INFO]: Added 50 to the time
+[09:37:42] [Server thread/INFO]: Added 50 to the time
+[09:37:42] [Server thread/INFO]: Added 50 to the time
+[09:37:42] [Server thread/INFO]: Added 50 to the time
+[09:37:43] [Server thread/INFO]: Added 50 to the time
+[09:37:43] [Server thread/INFO]: Added 50 to the time
+[09:37:43] [Server thread/INFO]: Added 50 to the time
+[09:37:43] [Server thread/INFO]: Added 50 to the time
+[09:37:43] [Server thread/INFO]: Added 50 to the time
+[09:37:43] [Server thread/INFO]: Added 50 to the time
+[09:37:43] [Server thread/INFO]: Added 50 to the time
+[09:37:43] [Server thread/INFO]: Added 50 to the time
+[09:37:43] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:1882.
+[09:37:48] [Thread-7/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:1932.
+[09:37:48] [Thread-41/INFO]: [RaspberryJuice] Starting output thread!
+[09:37:48] [Thread-40/INFO]: [RaspberryJuice] Starting input thread
+[09:37:49] [Server thread/INFO]: Added 100 to the time
+[09:37:49] [Server thread/INFO]: Added 100 to the time
+[09:37:49] [Server thread/INFO]: Added 100 to the time
+[09:37:49] [Server thread/INFO]: Added 100 to the time
+[09:37:49] [Server thread/INFO]: Added 100 to the time
+[09:37:49] [Server thread/INFO]: Added 100 to the time
+[09:37:49] [Server thread/INFO]: Added 100 to the time
+[09:37:49] [Server thread/INFO]: Added 100 to the time
+[09:37:49] [Server thread/INFO]: Added 100 to the time
+[09:37:49] [Server thread/INFO]: Added 100 to the time
+[09:37:49] [Server thread/INFO]: Added 100 to the time
+[09:37:49] [Server thread/INFO]: Added 100 to the time
+[09:37:49] [Server thread/INFO]: Added 100 to the time
+[09:37:49] [Server thread/INFO]: Added 100 to the time
+[09:37:49] [Server thread/INFO]: Added 100 to the time
+[09:37:49] [Server thread/INFO]: Added 100 to the time
+[09:37:49] [Server thread/INFO]: Added 100 to the time
+[09:37:50] [Server thread/INFO]: Added 100 to the time
+[09:37:50] [Server thread/INFO]: Added 100 to the time
+[09:37:50] [Server thread/INFO]: Added 100 to the time
+[09:37:50] [Server thread/INFO]: Added 100 to the time
+[09:37:50] [Server thread/INFO]: Added 100 to the time
+[09:37:50] [Server thread/INFO]: Added 100 to the time
+[09:37:50] [Server thread/INFO]: Added 100 to the time
+[09:37:50] [Server thread/INFO]: Added 100 to the time
+[09:37:50] [Server thread/INFO]: Added 100 to the time
+[09:37:50] [Server thread/INFO]: Added 100 to the time
+[09:37:50] [Server thread/INFO]: Added 100 to the time
+[09:37:50] [Server thread/INFO]: Added 100 to the time
+[09:37:50] [Server thread/INFO]: Added 100 to the time
+[09:37:50] [Server thread/INFO]: Added 100 to the time
+[09:37:50] [Server thread/INFO]: Added 100 to the time
+[09:37:50] [Server thread/INFO]: Added 100 to the time
+[09:37:51] [Server thread/INFO]: Added 100 to the time
+[09:37:51] [Server thread/INFO]: Added 100 to the time
+[09:37:51] [Server thread/INFO]: Added 100 to the time
+[09:37:51] [Server thread/INFO]: Added 100 to the time
+[09:37:51] [Server thread/INFO]: Added 100 to the time
+[09:37:51] [Server thread/INFO]: Added 100 to the time
+[09:37:51] [Server thread/INFO]: Added 100 to the time
+[09:37:51] [Server thread/INFO]: Added 100 to the time
+[09:37:51] [Server thread/INFO]: Added 100 to the time
+[09:37:51] [Server thread/INFO]: Added 100 to the time
+[09:37:51] [Server thread/INFO]: Added 100 to the time
+[09:37:51] [Server thread/INFO]: Added 100 to the time
+[09:37:51] [Server thread/INFO]: Added 100 to the time
+[09:37:51] [Server thread/INFO]: Added 100 to the time
+[09:37:51] [Server thread/INFO]: Added 100 to the time
+[09:37:51] [Server thread/INFO]: Added 100 to the time
+[09:37:52] [Server thread/INFO]: Added 100 to the time
+[09:37:52] [Server thread/INFO]: Added 100 to the time
+[09:37:52] [Server thread/INFO]: Added 100 to the time
+[09:37:52] [Server thread/INFO]: Added 100 to the time
+[09:37:52] [Server thread/INFO]: Added 100 to the time
+[09:37:52] [Server thread/INFO]: Added 100 to the time
+[09:37:52] [Server thread/INFO]: Added 100 to the time
+[09:37:52] [Server thread/INFO]: Added 100 to the time
+[09:37:52] [Server thread/INFO]: Added 100 to the time
+[09:37:52] [Server thread/INFO]: Added 100 to the time
+[09:37:52] [Server thread/INFO]: Added 100 to the time
+[09:37:52] [Server thread/INFO]: Added 100 to the time
+[09:37:52] [Server thread/INFO]: Added 100 to the time
+[09:37:52] [Server thread/INFO]: Added 100 to the time
+[09:37:52] [Server thread/INFO]: Added 100 to the time
+[09:37:52] [Server thread/INFO]: Added 100 to the time
+[09:37:53] [Server thread/INFO]: Added 100 to the time
+[09:37:53] [Server thread/INFO]: Added 100 to the time
+[09:37:53] [Server thread/INFO]: Added 100 to the time
+[09:37:53] [Server thread/INFO]: Added 100 to the time
+[09:37:53] [Server thread/INFO]: Added 100 to the time
+[09:37:53] [Server thread/INFO]: Added 100 to the time
+[09:37:53] [Server thread/INFO]: Added 100 to the time
+[09:37:53] [Server thread/INFO]: Added 100 to the time
+[09:37:53] [Server thread/INFO]: Added 100 to the time
+[09:37:53] [Server thread/INFO]: Added 100 to the time
+[09:37:53] [Server thread/INFO]: Added 100 to the time
+[09:37:53] [Server thread/INFO]: Added 100 to the time
+[09:37:53] [Server thread/INFO]: Added 100 to the time
+[09:37:53] [Server thread/INFO]: Added 100 to the time
+[09:37:53] [Server thread/INFO]: Added 100 to the time
+[09:37:53] [Server thread/INFO]: Added 100 to the time
+[09:37:54] [Server thread/INFO]: Added 100 to the time
+[09:37:54] [Server thread/INFO]: Added 100 to the time
+[09:37:54] [Server thread/INFO]: Added 100 to the time
+[09:37:54] [Server thread/INFO]: Added 100 to the time
+[09:37:54] [Server thread/INFO]: Added 100 to the time
+[09:37:54] [Server thread/INFO]: Added 100 to the time
+[09:37:54] [Server thread/INFO]: Added 100 to the time
+[09:37:54] [Server thread/INFO]: Added 100 to the time
+[09:37:54] [Server thread/INFO]: Added 100 to the time
+[09:37:54] [Server thread/INFO]: Added 100 to the time
+[09:37:54] [Server thread/INFO]: Added 100 to the time
+[09:37:54] [Server thread/INFO]: Added 100 to the time
+[09:37:54] [Server thread/INFO]: Added 100 to the time
+[09:37:54] [Server thread/INFO]: Added 100 to the time
+[09:37:54] [Server thread/INFO]: Added 100 to the time
+[09:37:54] [Server thread/INFO]: Added 100 to the time
+[09:37:55] [Server thread/INFO]: Added 100 to the time
+[09:37:55] [Server thread/INFO]: Added 100 to the time
+[09:37:55] [Server thread/INFO]: Added 100 to the time
+[09:37:55] [Server thread/INFO]: Added 100 to the time
+[09:37:55] [Server thread/INFO]: Added 100 to the time
+[09:37:55] [Server thread/INFO]: Added 100 to the time
+[09:37:55] [Server thread/INFO]: Added 100 to the time
+[09:37:55] [Server thread/INFO]: Added 100 to the time
+[09:37:55] [Server thread/INFO]: Added 100 to the time
+[09:37:55] [Server thread/INFO]: Added 100 to the time
+[09:37:55] [Server thread/INFO]: Added 100 to the time
+[09:37:55] [Server thread/INFO]: Added 100 to the time
+[09:37:55] [Server thread/INFO]: Added 100 to the time
+[09:37:55] [Server thread/INFO]: Added 100 to the time
+[09:37:55] [Server thread/INFO]: Added 100 to the time
+[09:37:55] [Server thread/INFO]: Added 100 to the time
+[09:37:56] [Server thread/INFO]: Added 100 to the time
+[09:37:56] [Server thread/INFO]: Added 100 to the time
+[09:37:56] [Server thread/INFO]: Added 100 to the time
+[09:37:56] [Server thread/INFO]: Added 100 to the time
+[09:37:56] [Server thread/INFO]: Added 100 to the time
+[09:37:56] [Server thread/INFO]: Added 100 to the time
+[09:37:56] [Server thread/INFO]: Added 100 to the time
+[09:37:56] [Server thread/INFO]: Added 100 to the time
+[09:37:56] [Server thread/INFO]: Added 100 to the time
+[09:37:56] [Server thread/INFO]: Added 100 to the time
+[09:37:56] [Server thread/INFO]: Added 100 to the time
+[09:37:56] [Server thread/INFO]: Added 100 to the time
+[09:37:56] [Server thread/INFO]: Added 100 to the time
+[09:37:56] [Server thread/INFO]: Added 100 to the time
+[09:37:56] [Server thread/INFO]: Added 100 to the time
+[09:37:57] [Server thread/INFO]: Added 100 to the time
+[09:37:57] [Server thread/INFO]: Added 100 to the time
+[09:37:57] [Server thread/INFO]: Added 100 to the time
+[09:37:57] [Server thread/INFO]: Added 100 to the time
+[09:37:57] [Server thread/INFO]: Added 100 to the time
+[09:37:57] [Server thread/INFO]: Added 100 to the time
+[09:37:57] [Server thread/INFO]: Added 100 to the time
+[09:37:57] [Server thread/INFO]: Added 100 to the time
+[09:37:57] [Server thread/INFO]: Added 100 to the time
+[09:37:57] [Server thread/INFO]: Added 100 to the time
+[09:37:57] [Server thread/INFO]: Added 100 to the time
+[09:37:57] [Server thread/INFO]: Added 100 to the time
+[09:37:57] [Server thread/INFO]: Added 100 to the time
+[09:37:57] [Server thread/INFO]: Added 100 to the time
+[09:37:57] [Server thread/INFO]: Added 100 to the time
+[09:37:57] [Server thread/INFO]: Added 100 to the time
+[09:37:58] [Server thread/INFO]: Added 100 to the time
+[09:37:58] [Server thread/INFO]: Added 100 to the time
+[09:37:58] [Server thread/INFO]: Added 100 to the time
+[09:37:58] [Server thread/INFO]: Added 100 to the time
+[09:37:58] [Server thread/INFO]: Added 100 to the time
+[09:37:58] [Server thread/INFO]: Added 100 to the time
+[09:37:58] [Server thread/INFO]: Added 100 to the time
+[09:37:58] [Server thread/INFO]: Added 100 to the time
+[09:37:58] [Server thread/INFO]: Added 100 to the time
+[09:37:58] [Server thread/INFO]: Added 100 to the time
+[09:37:58] [Server thread/INFO]: Added 100 to the time
+[09:37:58] [Server thread/INFO]: Added 100 to the time
+[09:37:58] [Server thread/INFO]: Added 100 to the time
+[09:37:58] [Server thread/INFO]: Added 100 to the time
+[09:37:58] [Server thread/INFO]: Added 100 to the time
+[09:37:58] [Server thread/INFO]: Added 100 to the time
+[09:37:59] [Server thread/INFO]: Added 100 to the time
+[09:37:59] [Server thread/INFO]: Added 100 to the time
+[09:37:59] [Server thread/INFO]: Added 100 to the time
+[09:37:59] [Server thread/INFO]: Added 100 to the time
+[09:37:59] [Server thread/INFO]: Added 100 to the time
+[09:37:59] [Server thread/INFO]: Added 100 to the time
+[09:37:59] [Server thread/INFO]: Added 100 to the time
+[09:37:59] [Server thread/INFO]: Added 100 to the time
+[09:37:59] [Server thread/INFO]: Added 100 to the time
+[09:37:59] [Server thread/INFO]: Added 100 to the time
+[09:37:59] [Server thread/INFO]: Added 100 to the time
+[09:37:59] [Server thread/INFO]: Added 100 to the time
+[09:37:59] [Server thread/INFO]: Added 100 to the time
+[09:37:59] [Server thread/INFO]: Added 100 to the time
+[09:37:59] [Server thread/INFO]: Added 100 to the time
+[09:37:59] [Server thread/INFO]: Added 100 to the time
+[09:37:59] [Server thread/INFO]: Added 100 to the time
+[09:38:00] [Server thread/INFO]: Added 100 to the time
+[09:38:00] [Server thread/INFO]: Added 100 to the time
+[09:38:00] [Server thread/INFO]: Added 100 to the time
+[09:38:00] [Server thread/INFO]: Added 100 to the time
+[09:38:00] [Server thread/INFO]: Added 100 to the time
+[09:38:00] [Server thread/INFO]: Added 100 to the time
+[09:38:00] [Server thread/INFO]: Added 100 to the time
+[09:38:00] [Server thread/INFO]: Added 100 to the time
+[09:38:00] [Server thread/INFO]: Added 100 to the time
+[09:38:00] [Server thread/INFO]: Added 100 to the time
+[09:38:00] [Server thread/INFO]: Added 100 to the time
+[09:38:00] [Server thread/INFO]: Added 100 to the time
+[09:38:00] [Server thread/INFO]: Added 100 to the time
+[09:38:00] [Server thread/INFO]: Added 100 to the time
+[09:38:00] [Server thread/INFO]: Added 100 to the time
+[09:38:01] [Server thread/INFO]: Added 100 to the time
+[09:38:01] [Server thread/INFO]: Added 100 to the time
+[09:38:01] [Server thread/INFO]: Added 100 to the time
+[09:38:01] [Server thread/INFO]: Added 100 to the time
+[09:38:01] [Server thread/INFO]: Added 100 to the time
+[09:38:01] [Server thread/INFO]: Added 100 to the time
+[09:38:01] [Server thread/INFO]: Added 100 to the time
+[09:38:01] [Server thread/INFO]: Added 100 to the time
+[09:38:01] [Server thread/INFO]: Added 100 to the time
+[09:38:01] [Server thread/INFO]: Added 100 to the time
+[09:38:01] [Server thread/INFO]: Added 100 to the time
+[09:38:01] [Server thread/INFO]: Added 100 to the time
+[09:38:01] [Server thread/INFO]: Added 100 to the time
+[09:38:01] [Server thread/INFO]: Added 100 to the time
+[09:38:01] [Server thread/INFO]: Added 100 to the time
+[09:38:01] [Server thread/INFO]: Added 100 to the time
+[09:38:02] [Server thread/INFO]: Added 100 to the time
+[09:38:02] [Server thread/INFO]: Added 100 to the time
+[09:38:02] [Server thread/INFO]: Added 100 to the time
+[09:38:02] [Server thread/INFO]: Added 100 to the time
+[09:38:02] [Server thread/INFO]: Added 100 to the time
+[09:38:02] [Server thread/INFO]: Added 100 to the time
+[09:38:02] [Server thread/INFO]: Added 100 to the time
+[09:38:02] [Server thread/INFO]: Added 100 to the time
+[09:38:02] [Server thread/INFO]: Added 100 to the time
+[09:38:02] [Server thread/INFO]: Added 100 to the time
+[09:38:02] [Server thread/INFO]: Added 100 to the time
+[09:38:02] [Server thread/INFO]: Added 100 to the time
+[09:38:02] [Server thread/INFO]: Added 100 to the time
+[09:38:02] [Server thread/INFO]: Added 100 to the time
+[09:38:02] [Server thread/INFO]: Added 100 to the time
+[09:38:02] [Server thread/INFO]: Added 100 to the time
+[09:38:03] [Server thread/INFO]: Added 100 to the time
+[09:38:03] [Server thread/INFO]: Added 100 to the time
+[09:38:03] [Server thread/INFO]: Added 100 to the time
+[09:38:03] [Server thread/INFO]: Added 100 to the time
+[09:38:03] [Server thread/INFO]: Added 100 to the time
+[09:38:03] [Server thread/INFO]: Added 100 to the time
+[09:38:03] [Server thread/INFO]: Added 100 to the time
+[09:38:03] [Server thread/INFO]: Added 100 to the time
+[09:38:03] [Server thread/INFO]: Added 100 to the time
+[09:38:03] [Server thread/INFO]: Added 100 to the time
+[09:38:03] [Server thread/INFO]: Added 100 to the time
+[09:38:03] [Server thread/INFO]: Added 100 to the time
+[09:38:03] [Server thread/INFO]: Added 100 to the time
+[09:38:03] [Server thread/INFO]: Added 100 to the time
+[09:38:03] [Server thread/INFO]: Added 100 to the time
+[09:38:03] [Server thread/INFO]: Added 100 to the time
+[09:38:04] [Server thread/INFO]: Added 100 to the time
+[09:38:04] [Server thread/INFO]: Added 100 to the time
+[09:38:04] [Server thread/INFO]: Added 100 to the time
+[09:38:04] [Server thread/INFO]: Added 100 to the time
+[09:38:04] [Server thread/INFO]: Added 100 to the time
+[09:38:04] [Server thread/INFO]: Added 100 to the time
+[09:38:04] [Server thread/INFO]: Added 100 to the time
+[09:38:04] [Server thread/INFO]: Added 100 to the time
+[09:38:04] [Server thread/INFO]: Added 100 to the time
+[09:38:04] [Server thread/INFO]: Added 100 to the time
+[09:38:04] [Server thread/INFO]: Added 100 to the time
+[09:38:04] [Server thread/INFO]: Added 100 to the time
+[09:38:04] [Server thread/INFO]: Added 100 to the time
+[09:38:04] [Server thread/INFO]: Added 100 to the time
+[09:38:04] [Server thread/INFO]: Added 100 to the time
+[09:38:04] [Server thread/INFO]: Added 100 to the time
+[09:38:05] [Server thread/INFO]: Added 100 to the time
+[09:38:05] [Server thread/INFO]: Added 100 to the time
+[09:38:05] [Server thread/INFO]: Added 100 to the time
+[09:38:05] [Server thread/INFO]: Added 100 to the time
+[09:38:05] [Server thread/INFO]: Added 100 to the time
+[09:38:05] [Server thread/INFO]: Added 100 to the time
+[09:38:05] [Server thread/INFO]: Added 100 to the time
+[09:38:05] [Server thread/INFO]: Added 100 to the time
+[09:38:05] [Server thread/INFO]: Added 100 to the time
+[09:38:05] [Server thread/INFO]: Added 100 to the time
+[09:38:05] [Server thread/INFO]: Added 100 to the time
+[09:38:05] [Server thread/INFO]: Added 100 to the time
+[09:38:05] [Server thread/INFO]: Added 100 to the time
+[09:38:05] [Server thread/INFO]: Added 100 to the time
+[09:38:05] [Server thread/INFO]: Added 100 to the time
+[09:38:05] [Server thread/INFO]: Added 100 to the time
+[09:38:06] [Server thread/INFO]: Added 100 to the time
+[09:38:06] [Server thread/INFO]: Added 100 to the time
+[09:38:06] [Server thread/INFO]: Added 100 to the time
+[09:38:06] [Server thread/INFO]: Added 100 to the time
+[09:38:06] [Server thread/INFO]: Added 100 to the time
+[09:38:06] [Server thread/INFO]: Added 100 to the time
+[09:38:06] [Server thread/INFO]: Added 100 to the time
+[09:38:06] [Server thread/INFO]: Added 100 to the time
+[09:38:06] [Server thread/INFO]: Added 100 to the time
+[09:38:06] [Server thread/INFO]: Added 100 to the time
+[09:38:06] [Server thread/INFO]: Added 100 to the time
+[09:38:06] [Server thread/INFO]: Added 100 to the time
+[09:38:06] [Server thread/INFO]: Added 100 to the time
+[09:38:06] [Server thread/INFO]: Added 100 to the time
+[09:38:06] [Server thread/INFO]: Added 100 to the time
+[09:38:06] [Server thread/INFO]: Added 100 to the time
+[09:38:06] [Server thread/INFO]: Added 100 to the time
+[09:38:07] [Server thread/INFO]: Added 100 to the time
+[09:38:07] [Server thread/INFO]: Added 100 to the time
+[09:38:07] [Server thread/INFO]: Added 100 to the time
+[09:38:07] [Server thread/INFO]: Added 100 to the time
+[09:38:07] [Server thread/INFO]: Added 100 to the time
+[09:38:07] [Server thread/INFO]: Added 100 to the time
+[09:38:07] [Server thread/INFO]: Added 100 to the time
+[09:38:07] [Server thread/INFO]: Added 100 to the time
+[09:38:07] [Server thread/INFO]: Added 100 to the time
+[09:38:07] [Server thread/INFO]: Added 100 to the time
+[09:38:07] [Server thread/INFO]: Added 100 to the time
+[09:38:07] [Server thread/INFO]: Added 100 to the time
+[09:38:07] [Server thread/INFO]: Added 100 to the time
+[09:38:07] [Server thread/INFO]: Added 100 to the time
+[09:38:07] [Server thread/INFO]: Added 100 to the time
+[09:38:07] [Server thread/INFO]: Added 100 to the time
+[09:38:08] [Server thread/INFO]: Added 100 to the time
+[09:38:08] [Server thread/INFO]: Added 100 to the time
+[09:38:08] [Server thread/INFO]: Added 100 to the time
+[09:38:08] [Server thread/INFO]: Added 100 to the time
+[09:38:08] [Server thread/INFO]: Added 100 to the time
+[09:38:08] [Server thread/INFO]: Added 100 to the time
+[09:38:08] [Server thread/INFO]: Added 100 to the time
+[09:38:08] [Server thread/INFO]: Added 100 to the time
+[09:38:08] [Server thread/INFO]: Added 100 to the time
+[09:38:08] [Server thread/INFO]: Added 100 to the time
+[09:38:08] [Server thread/INFO]: Added 100 to the time
+[09:38:08] [Server thread/INFO]: Added 100 to the time
+[09:38:08] [Server thread/INFO]: Added 100 to the time
+[09:38:08] [Server thread/INFO]: Added 100 to the time
+[09:38:08] [Server thread/INFO]: Added 100 to the time
+[09:38:08] [Server thread/INFO]: Added 100 to the time
+[09:38:09] [Server thread/INFO]: Added 100 to the time
+[09:38:09] [Server thread/INFO]: Added 100 to the time
+[09:38:09] [Server thread/INFO]: Added 100 to the time
+[09:38:09] [Server thread/INFO]: Added 100 to the time
+[09:38:09] [Server thread/INFO]: Added 100 to the time
+[09:38:09] [Server thread/INFO]: Added 100 to the time
+[09:38:09] [Server thread/INFO]: Added 100 to the time
+[09:38:09] [Server thread/INFO]: Added 100 to the time
+[09:38:09] [Server thread/INFO]: Added 100 to the time
+[09:38:09] [Server thread/INFO]: Added 100 to the time
+[09:38:09] [Server thread/INFO]: Added 100 to the time
+[09:38:09] [Server thread/INFO]: Added 100 to the time
+[09:38:09] [Server thread/INFO]: Added 100 to the time
+[09:38:09] [Server thread/INFO]: Added 100 to the time
+[09:38:09] [Server thread/INFO]: Added 100 to the time
+[09:38:09] [Server thread/INFO]: Added 100 to the time
+[09:38:10] [Server thread/INFO]: Added 100 to the time
+[09:38:10] [Server thread/INFO]: Added 100 to the time
+[09:38:10] [Server thread/INFO]: Added 100 to the time
+[09:38:10] [Server thread/INFO]: Added 100 to the time
+[09:38:10] [Server thread/INFO]: Added 100 to the time
+[09:38:10] [Server thread/INFO]: Added 100 to the time
+[09:38:10] [Server thread/INFO]: Added 100 to the time
+[09:38:10] [Server thread/INFO]: Added 100 to the time
+[09:38:10] [Server thread/INFO]: Added 100 to the time
+[09:38:10] [Server thread/INFO]: Added 100 to the time
+[09:38:10] [Server thread/INFO]: Added 100 to the time
+[09:38:10] [Server thread/INFO]: Added 100 to the time
+[09:38:10] [Server thread/INFO]: Added 100 to the time
+[09:38:10] [Server thread/INFO]: Added 100 to the time
+[09:38:10] [Server thread/INFO]: Added 100 to the time
+[09:38:10] [Server thread/INFO]: Added 100 to the time
+[09:38:11] [Server thread/INFO]: Added 100 to the time
+[09:38:11] [Server thread/INFO]: Added 100 to the time
+[09:38:11] [Server thread/INFO]: Added 100 to the time
+[09:38:11] [Server thread/INFO]: Added 100 to the time
+[09:38:11] [Server thread/INFO]: Added 100 to the time
+[09:38:11] [Server thread/INFO]: Added 100 to the time
+[09:38:11] [Server thread/INFO]: Added 100 to the time
+[09:38:11] [Server thread/INFO]: Added 100 to the time
+[09:38:11] [Server thread/INFO]: Added 100 to the time
+[09:38:11] [Server thread/INFO]: Added 100 to the time
+[09:38:11] [Server thread/INFO]: Added 100 to the time
+[09:38:11] [Server thread/INFO]: Added 100 to the time
+[09:38:11] [Server thread/INFO]: Added 100 to the time
+[09:38:11] [Server thread/INFO]: Added 100 to the time
+[09:38:11] [Server thread/INFO]: Added 100 to the time
+[09:38:11] [Server thread/INFO]: Added 100 to the time
+[09:38:12] [Server thread/INFO]: Added 100 to the time
+[09:38:12] [Server thread/INFO]: Added 100 to the time
+[09:38:12] [Server thread/INFO]: Added 100 to the time
+[09:38:12] [Server thread/INFO]: Added 100 to the time
+[09:38:12] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:1924.
+[09:56:08] [Thread-7/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:2051.
+[09:56:08] [Thread-42/INFO]: [RaspberryJuice] Starting input thread
+[09:56:08] [Thread-43/INFO]: [RaspberryJuice] Starting output thread!
+[09:56:08] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:1932.
+[09:56:39] [Thread-7/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:2053.
+[09:56:39] [Thread-44/INFO]: [RaspberryJuice] Starting input thread
+[09:56:39] [Thread-45/INFO]: [RaspberryJuice] Starting output thread!
+[09:56:39] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:2051.
+[10:00:44] [Thread-7/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:2073.
+[10:00:44] [Thread-46/INFO]: [RaspberryJuice] Starting input thread
+[10:00:44] [Thread-47/INFO]: [RaspberryJuice] Starting output thread!
+[10:00:44] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:2053.
+[10:01:49] [Thread-7/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:2086.
+[10:01:49] [Thread-48/INFO]: [RaspberryJuice] Starting input thread
+[10:01:49] [Thread-49/INFO]: [RaspberryJuice] Starting output thread!
+[10:01:49] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:2073.
+[10:02:42] [Thread-7/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:2089.
+[10:02:42] [Thread-50/INFO]: [RaspberryJuice] Starting input thread
+[10:02:42] [Thread-51/INFO]: [RaspberryJuice] Starting output thread!
+[10:02:42] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:2086.
+[10:06:27] [Thread-7/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:2114.
+[10:06:27] [Thread-52/INFO]: [RaspberryJuice] Starting input thread
+[10:06:27] [Thread-53/INFO]: [RaspberryJuice] Starting output thread!
+[10:06:27] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:2089.
+[11:27:28] [Server thread/INFO]: jaypan8970 lost connection: Disconnected
+[11:27:28] [Server thread/INFO]: jaypan8970 left the game

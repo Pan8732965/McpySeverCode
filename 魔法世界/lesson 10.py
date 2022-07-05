@@ -6,10 +6,12 @@ Created on Mon Jul  4 21:30:35 2022
 """
 
 from mcpi.minecraft import Minecraft
+mc = Minecraft.create()
+
 import time
 import random
 
-mc = Minecraft.create()
+
 x,y,z = mc.player.getTilePos
 
 for i in range(20): #執行20次，有20個方塊
