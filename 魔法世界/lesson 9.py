@@ -47,14 +47,17 @@ mc.setSign(x,y,z,63,0,str(line1),str(line2),str(line3))
 """
 # 自我複製
 
-number=1 # 每次複製的量
+number=1 
 x,y,z=mc.player.getTilePos()
 
-for i in range(8): # 每次生成的量。總共生8批，禁止超過8批
+for i in range(10): # 每次生成的量。總共生8批，禁止超過8批 range(8) 2總共乘以8次-->2的8次方
     for j in range(number):
         mc.spawnEntity(x,y,z,60)
-    number = number*2
+    number = number*2  # *2-->每次複製的量
+    print("i="+str(i)+" , j="+str(j)+" ,number: "+str(number))
 
 mc.postToChat("這次生成了" + str(number) + "隻蠹魚")
+print("i="+str(i)+" , j="+str(j)+" ,number: "+str(number))
     
+
     

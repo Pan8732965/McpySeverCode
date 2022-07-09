@@ -31,11 +31,11 @@ pos=mc.player.getPos()
     time.sleep(0.1)"""
 #爆破弓箭
 while True:
-    hits = mc.events.pollBlockHits()
+    hits = mc.events.pollProjectileHits() # <--代表弓箭拋射物發射的事件  mc.events.pollBlockHits 是去偵測hit的一塊塊方塊的
     if len(hits) > 0:
         hit = hits[0]
         x,y,z = hit.pos.x, hit.pos.y, hit.pos.z
         mc.createExplosion(x,y,z)
-        mc.player.setTilePos(x,y,z)
+        #mc.player.setTilePos(x,y,z)
         #mc.spawnEntity(x,y,z,99)
     
